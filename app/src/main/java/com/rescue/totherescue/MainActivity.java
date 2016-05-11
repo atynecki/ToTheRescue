@@ -1,9 +1,12 @@
 package com.rescue.totherescue;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +14,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button help =  (Button) findViewById(R.id.button_help);
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Intent intent = new Intent(MainActivity.this, HelpActivity.class);
+                //startActivity(intent);
+            }
+        });
+
+        Button quiz =  (Button) findViewById(R.id.button_quiz);
+        quiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Intent intent = new Intent(MainActivity.this, QuizActivity.class);
+                //startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -27,10 +48,12 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_menu_info) {
+            //Intent intent = new Intent(this, InfoActivity.class);
+            //startActivity(intent);
             return true;
         }
+
 
         return super.onOptionsItemSelected(item);
     }
