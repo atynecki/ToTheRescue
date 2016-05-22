@@ -3,47 +3,33 @@ package com.rescue.totherescue;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class CaseActivity extends AppCompatActivity {
 
-    public static final String quiz_mode = "QUIZ";
-    public static final String help_mode = "HELP";
-
+    private String mode;
+    private RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_case);
 
-        Button help =  (Button) findViewById(R.id.button_help);
-        help.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CaseActivity.class);
-                intent.putExtra("mode", help_mode);
-                startActivity(intent);
-            }
-        });
+        Intent intent = getIntent();
+        mode= intent.getStringExtra("mode");
 
-        Button quiz =  (Button) findViewById(R.id.button_quiz);
-        quiz.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CaseActivity.class);
-                intent.putExtra("mode", quiz_mode);
-                startActivity(intent);
-            }
-        });
+        TextView mode_text =  (TextView) findViewById(R.id.textView_mode);
+        mode_text.setText(mode);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_case, menu);
         return true;
     }
 
@@ -59,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
             //startActivity(intent);
             return true;
         }
-
 
         return super.onOptionsItemSelected(item);
     }
