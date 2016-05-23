@@ -3,16 +3,26 @@ package com.rescue.totherescue;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CaseActivity extends AppCompatActivity {
 
     private String mode;
     private RecyclerView recyclerView;
+    private CaseAdapter caseAdapter;
+
+    private ArrayList<String> caseList;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +34,23 @@ public class CaseActivity extends AppCompatActivity {
 
         TextView mode_text =  (TextView) findViewById(R.id.textView_mode);
         mode_text.setText(mode);
+
+        recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        caseList = new ArrayList<String>();
+        caseList.add("Zadławienie");
+        caseList.add("Tonięcię");
+        caseList.add("Porażenie prądem");
+        caseList.add("Oparzenie");
+        caseList.add("Rany");
+        caseList.add("RKO");
+        caseList.add("Utrata przytomności");
+        caseList.add("Zawał");
+
+        caseAdapter = new CaseAdapter(caseList);
+        recyclerView.setAdapter(caseAdapter);
     }
 
     @Override

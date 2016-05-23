@@ -7,17 +7,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
 public class CaseAdapter extends RecyclerView.Adapter<CaseAdapter.CaseViewHolder> {
 
-    public Context context;
-    private List<String> caseList;
-
-    public CaseAdapter(Context context) {
-        this.context = context;
-    }
+    private ArrayList<String> caseList;
 
     @Override
     public CaseViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
@@ -33,7 +29,11 @@ public class CaseAdapter extends RecyclerView.Adapter<CaseAdapter.CaseViewHolder
 
     @Override
     public int getItemCount() {
-        return 1;
+        return caseList.size();
+    }
+
+    public CaseAdapter(ArrayList<String> cases) {
+        caseList = cases;
     }
 
     public class CaseViewHolder extends RecyclerView.ViewHolder {
@@ -47,15 +47,12 @@ public class CaseAdapter extends RecyclerView.Adapter<CaseAdapter.CaseViewHolder
                 @Override
                 public void onClick(View v) {
                     Integer position = getAdapterPosition();
+                    String oneCase = caseList.get(position);
+
                 }
             });
         }
 
 
-    }
-
-    public void addNewCase(String newCase){
-        caseList.add(newCase);
-        notifyDataSetChanged();
     }
 }

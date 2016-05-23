@@ -17,8 +17,11 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="TEST"
-            android:id="@+id/caseButton"/>
+            android:textSize="20sp"
+            android:background="@color/darkblue"
+            android:textColor="@color/lightblue"
+            android:id="@+id/caseButton"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
