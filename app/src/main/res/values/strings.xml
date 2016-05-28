@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">ToTheRescue</string>
 
-    <string name="action_settings">Settings</string>
+    <!-- Case name. -->
+    <string name="zadlawienie">Zadławienie</string>
+    <string name="toniecie">Tonięcię</string>
+    <string name="porazenie">Porażenie prądem</string>
+    <string name="oparzenie">Oparzenie</string>
+    <string name="rany">Rany</string>
+    <string name="rko">RKO</string>
+    <string name="przytomnosc">Utrata przytomności</string>
+    <string name="zawal">Zawał</string>
+
+    <string name="mode">mode</string>
+
 </resources>

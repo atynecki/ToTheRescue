@@ -23,14 +23,13 @@ public class CaseActivity extends AppCompatActivity {
 
     private ArrayList<String> caseList;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_case);
 
         Intent intent = getIntent();
-        mode= intent.getStringExtra("mode");
+        mode= intent.getStringExtra(getString(R.string.mode));
 
         TextView mode_text =  (TextView) findViewById(R.id.textView_mode);
         mode_text.setText(mode);
@@ -40,16 +39,16 @@ public class CaseActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         caseList = new ArrayList<String>();
-        caseList.add("Zadławienie");
-        caseList.add("Tonięcię");
-        caseList.add("Porażenie prądem");
-        caseList.add("Oparzenie");
-        caseList.add("Rany");
-        caseList.add("RKO");
-        caseList.add("Utrata przytomności");
-        caseList.add("Zawał");
+        caseList.add(getString(R.string.zadlawienie));
+        caseList.add(getString(R.string.toniecie));
+        caseList.add(getString(R.string.porazenie));
+        caseList.add(getString(R.string.oparzenie));
+        caseList.add(getString(R.string.rany));
+        caseList.add(getString(R.string.rko));
+        caseList.add(getString(R.string.przytomnosc));
+        caseList.add(getString(R.string.zawal));
 
-        caseAdapter = new CaseAdapter(caseList);
+        caseAdapter = new CaseAdapter(caseList, mode);
         recyclerView.setAdapter(caseAdapter);
     }
 
@@ -74,5 +73,10 @@ public class CaseActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void itemCaseSelected (String case_name)
+    {
+
     }
 }

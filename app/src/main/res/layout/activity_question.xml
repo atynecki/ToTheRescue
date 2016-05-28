@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="36dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.rescue.totherescue.quiz.QuestionActivity"
+    android:background="@color/lightblue">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:id="@+id/button_finish"
+        android:textSize="20dp"
+        android:background="@color/strongblue"
+        android:textColor="@color/lightblue"
+        android:layout_alignTop="@+id/textView_timer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:30"
+        android:id="@+id/textView_timer"
+        android:textSize="22sp"
+        android:textColor="@color/strongblue"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question"
+        android:id="@+id/textView_question"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:textColor="@color/strongblue"
+        android:layout_below="@+id/button_finish"
+        android:layout_alignLeft="@+id/button_option1"
+        android:layout_alignStart="@+id/button_option1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="option1"
+        android:id="@+id/button_option1"
+        android:textSize="16sp"
+        android:background="@color/strongblue"
+        android:textColor="@color/lightblue"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView_question"
+        android:layout_alignLeft="@+id/button_option3"
+        android:layout_alignStart="@+id/button_option3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="option2"
+        android:id="@+id/button_option2"
+        android:textSize="16sp"
+        android:background="@color/strongblue"
+        android:textColor="@color/lightblue"
+        android:layout_below="@+id/button_option1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="option3"
+        android:id="@+id/button_option3"
+        android:textSize="16sp"
+        android:background="@color/strongblue"
+        android:textColor="@color/lightblue"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/button_option2"
+        android:layout_alignLeft="@+id/button_option2"
+        android:layout_alignStart="@+id/button_option2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="option4"
+        android:id="@+id/button_option4"
+        android:textSize="16sp"
+        android:background="@color/strongblue"
+        android:textColor="@color/lightblue"
+        android:layout_below="@+id/button_option3"
+        android:layout_alignLeft="@+id/button_option3"
+        android:layout_alignStart="@+id/button_option3"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/12"
+        android:id="@+id/textView_question_num"
+        android:textSize="22sp"
+        android:textColor="@color/strongblue"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView_timer"
+        android:layout_alignEnd="@+id/textView_timer" />
+
+</RelativeLayout>
