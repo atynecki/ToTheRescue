@@ -42,19 +42,20 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
 
     private static final String ID_TYPE = "INTEGER PRIMARY KEY AUTOINCREMENT";
     private static final String TEXT_TYPE = "TEXT NOT NULL";
-    private static final String COMMA_SEP = ",";
+    private static final String COMMA_SEP = ", ";
+    private static final String SPACE_SEP = " ";
 
     // Table Create Statements
     // Zadławienia table create statement
     private static final String CREATE_TABLE_ZADLAWIENIA =
             "CREATE TABLE " + TABLE_ZADLAWIENIE +
-                    "(" + KEY_ID + " " + ID_TYPE + COMMA_SEP +
-                    KEY_QUESTION + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION1 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION2 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION3 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION4 + TEXT_TYPE + COMMA_SEP +
-                    KEY_EXPLANATION + TEXT_TYPE + COMMA_SEP + ");";
+                    "( " + KEY_ID + SPACE_SEP + ID_TYPE + COMMA_SEP +
+                    KEY_QUESTION + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION1 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION2 + SPACE_SEP +TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION3 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION4 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_EXPLANATION + SPACE_SEP + TEXT_TYPE + ");";
 
     private static final String DELETE_TABLE_ZADLAWIENIA =
             "DROP TABLE IF EXISTS " + TABLE_ZADLAWIENIE;
@@ -62,13 +63,13 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
     // Toniecie table create statement
     private static final String CREATE_TABLE_TONIECIE =
             "CREATE TABLE " + TABLE_TONIECIE +
-                    "( " + KEY_ID +  ID_TYPE + COMMA_SEP +
-                    KEY_QUESTION + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION1 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION2 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION3 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION4 + TEXT_TYPE + COMMA_SEP +
-                    KEY_EXPLANATION + TEXT_TYPE + COMMA_SEP + " )";
+                    "( " + KEY_ID + SPACE_SEP + ID_TYPE + COMMA_SEP +
+                    KEY_QUESTION + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION1 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION2 + SPACE_SEP +TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION3 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION4 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_EXPLANATION + SPACE_SEP + TEXT_TYPE + ");";
 
     private static final String DELETE_TABLE_TONIECIE =
             "DROP TABLE IF EXISTS " + TABLE_TONIECIE;
@@ -76,13 +77,13 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
     // Porażenie table create statement
     private static final String CREATE_TABLE_PORAZENIE =
             "CREATE TABLE " + TABLE_PORAZENIE +
-                    "( " + KEY_ID +  ID_TYPE + COMMA_SEP +
-                    KEY_QUESTION + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION1 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION2 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION3 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION4 + TEXT_TYPE + COMMA_SEP +
-                    KEY_EXPLANATION + TEXT_TYPE + COMMA_SEP + " )";
+                    "( " + KEY_ID + SPACE_SEP + ID_TYPE + COMMA_SEP +
+                    KEY_QUESTION + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION1 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION2 + SPACE_SEP +TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION3 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION4 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_EXPLANATION + SPACE_SEP + TEXT_TYPE + ");";
 
     private static final String DELETE_TABLE_PORAZENIE =
             "DROP TABLE IF EXISTS " + TABLE_PORAZENIE;
@@ -90,13 +91,13 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
     // Oparzenie table create statement
     private static final String CREATE_TABLE_OPARZENIE =
             "CREATE TABLE " + TABLE_OPARZENIE +
-                    "( " + KEY_ID +  ID_TYPE + COMMA_SEP +
-                    KEY_QUESTION + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION1 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION2 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION3 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION4 + TEXT_TYPE + COMMA_SEP +
-                    KEY_EXPLANATION + TEXT_TYPE + COMMA_SEP + " )";
+                    "( " + KEY_ID + SPACE_SEP + ID_TYPE + COMMA_SEP +
+                    KEY_QUESTION + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION1 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION2 + SPACE_SEP +TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION3 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION4 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_EXPLANATION + SPACE_SEP + TEXT_TYPE + ");";
 
     private static final String DELETE_TABLE_OPARZENIE =
             "DROP TABLE IF EXISTS " + TABLE_OPARZENIE;
@@ -104,13 +105,13 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
     // Rany table create statement
     private static final String CREATE_TABLE_RANY =
             "CREATE TABLE " + TABLE_RANY +
-                    "( " + KEY_ID +  ID_TYPE + COMMA_SEP +
-                    KEY_QUESTION + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION1 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION2 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION3 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION4 + TEXT_TYPE + COMMA_SEP +
-                    KEY_EXPLANATION + TEXT_TYPE + COMMA_SEP + " )";
+                    "( " + KEY_ID + SPACE_SEP + ID_TYPE + COMMA_SEP +
+                    KEY_QUESTION + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION1 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION2 + SPACE_SEP +TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION3 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION4 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_EXPLANATION + SPACE_SEP + TEXT_TYPE + ");";
 
     private static final String DELETE_TABLE_RANY =
             "DROP TABLE IF EXISTS " + TABLE_RANY;
@@ -118,13 +119,13 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
     // RKO table create statement
     private static final String CREATE_TABLE_RKO =
             "CREATE TABLE " + TABLE_RKO +
-                    "( " + KEY_ID +  ID_TYPE + COMMA_SEP +
-                    KEY_QUESTION + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION1 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION2 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION3 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION4 + TEXT_TYPE + COMMA_SEP +
-                    KEY_EXPLANATION + TEXT_TYPE + COMMA_SEP + " )";
+                    "( " + KEY_ID + SPACE_SEP + ID_TYPE + COMMA_SEP +
+                    KEY_QUESTION + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION1 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION2 + SPACE_SEP +TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION3 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION4 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_EXPLANATION + SPACE_SEP + TEXT_TYPE + ");";
 
     private static final String DELETE_TABLE_RKO =
             "DROP TABLE IF EXISTS " + TABLE_RKO;
@@ -132,13 +133,13 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
     // Utrata przytomnosci table create statement
     private static final String CREATE_TABLE_PRZYTOMNOSC =
             "CREATE TABLE " + TABLE_PRZYTOMNOSC +
-                    "( " + KEY_ID +  ID_TYPE + COMMA_SEP +
-                    KEY_QUESTION + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION1 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION2 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION3 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION4 + TEXT_TYPE + COMMA_SEP +
-                    KEY_EXPLANATION + TEXT_TYPE + COMMA_SEP + " )";
+                    "( " + KEY_ID + SPACE_SEP + ID_TYPE + COMMA_SEP +
+                    KEY_QUESTION + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION1 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION2 + SPACE_SEP +TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION3 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION4 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_EXPLANATION + SPACE_SEP + TEXT_TYPE + ");";
 
     private static final String DELETE_TABLE_PRZYTMONOSC =
             "DROP TABLE IF EXISTS " + TABLE_PRZYTOMNOSC;
@@ -146,13 +147,13 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
     // Zawał table create statement
     private static final String CREATE_TABLE_ZAWAL =
             "CREATE TABLE " + TABLE_ZAWAL +
-                    "( " + KEY_ID +  ID_TYPE + COMMA_SEP +
-                    KEY_QUESTION + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION1 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION2 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION3 + TEXT_TYPE + COMMA_SEP +
-                    KEY_OPTION4 + TEXT_TYPE + COMMA_SEP +
-                    KEY_EXPLANATION + TEXT_TYPE + COMMA_SEP + " )";
+                    "( " + KEY_ID + SPACE_SEP + ID_TYPE + COMMA_SEP +
+                    KEY_QUESTION + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION1 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION2 + SPACE_SEP +TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION3 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_OPTION4 + SPACE_SEP + TEXT_TYPE + COMMA_SEP +
+                    KEY_EXPLANATION + SPACE_SEP + TEXT_TYPE + ");";
 
     private static final String DELETE_TABLE_ZAWAL =
             "DROP TABLE IF EXISTS " + TABLE_ZAWAL;

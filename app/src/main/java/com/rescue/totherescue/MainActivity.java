@@ -74,21 +74,5 @@ public class MainActivity extends AppCompatActivity {
     private void createQuizDatabse ()
     {
         db = new QuizDatabaseHelper(getApplicationContext());
-
-        //Zadławienie questions create
-        Question zadlawienie1 = new Question();
-        zadlawienie1.setQuestion("Dorosła osoba po zadławieniu straciła przytomność. Co robisz?");
-        zadlawienie1.setOption1("Wzywam pomoc i przechodzę do resuscytacji – 30 uciśnięć : 2 wdechy");
-        zadlawienie1.setOption2("Naprzemiennie wykonuję 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć nadbrzusza");
-        zadlawienie1.setOption3("Wykonuję na przemian 2 wdechy ratownicze i 5 uciśnięć nadbrzusza");
-        zadlawienie1.setOption4("Wzywam pomoc i przechodzę do resuscytacji –  15 uciśnięć : 2 wdechy");
-        zadlawienie1.setExplanation("Przy zadławieniu osoby dorosłej, nasze postępowanie zależy od jej stanu. \n" +
-                "\n" +
-                "Jeżeli kaszle, a jej kaszel jest efektywny - zachęcamy do dalszego kaszlu i monitorujemy jej stan, by móc zareagować na ewentualne pogorszenie.\n" +
-                "\n" +
-                "Jeżeli nie kaszle, lub kaszel jest nieefektywny a osoba jest przytomna, wykonujemy naprzemiennie 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć nadbrzusza.\n" +
-                "\n" +
-                "Jeżeli osoba straciła przytomność, przechodzimy do resuscytacji krążeniowo-oddechowej (30 uciśnięć : 2 wdechy)\n");
-        db.addQuestion(getString(R.string.zadlawienie), zadlawienie1);
     }
 }

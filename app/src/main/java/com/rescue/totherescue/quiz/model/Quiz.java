@@ -10,6 +10,8 @@ public class Quiz implements Serializable {
     private String name;
     private int question_number;
     private ArrayList<Question> questions;
+    private int wrong_answer;
+    private int correct_answer;
 
     public int getWrong_answer() {
         return wrong_answer;
@@ -27,8 +29,6 @@ public class Quiz implements Serializable {
         this.correct_answer = correct_answer;
     }
 
-    private int wrong_answer;
-    private int correct_answer;
     
     public Quiz(String name, ArrayList<Question> questions) {
         this.name = name;

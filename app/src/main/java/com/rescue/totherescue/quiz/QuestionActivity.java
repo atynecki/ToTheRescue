@@ -62,6 +62,8 @@ public class QuestionActivity extends AppCompatActivity {
     private void setResult ()
     {
         Intent intent = new Intent( QuestionActivity.this, ResultActivity.class);
+        quiz.setCorrect_answer(4);
+        quiz.setWrong_answer(4);
         intent.putExtra("correct", quiz.getCorrect_answer());
         intent.putExtra("wrong", quiz.getWrong_answer());
         startActivity(intent);

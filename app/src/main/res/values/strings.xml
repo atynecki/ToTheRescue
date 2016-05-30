@@ -13,4 +13,62 @@
 
     <string name="mode">mode</string>
 
+    <!-- Quiz questions -->
+    <!-- Zadławienie -->
+    <string name="ZQ1">Dorosła osoba po zadławieniu straciła przytomność. Co robisz?</string>
+    <string name="ZQ1A1">Wzywam pomoc i przechodzę do resuscytacji – 30 uciśnięć : 2 wdechy</string>
+    <string name="ZQ1A2">Naprzemiennie wykonuję 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć nadbrzusza</string>
+    <string name="ZQ1A3">Wykonuję na przemian 2 wdechy ratownicze i 5 uciśnięć nadbrzusza</string>
+    <string name="ZQ1A4">Wzywam pomoc i przechodzę do resuscytacji –  15 uciśnięć : 2 wdechy</string>
+    <string name="ZQ1E">Przy zadławieniu osoby dorosłej, nasze postępowanie zależy od jej stanu.\n Jeżeli osoba straciła przytomność, przechodzimy do resuscytacji krążeniowo-oddechowej (30 uciśnięć : 2 wdechy)</string>
+
+    <string name="ZQ2">Jeżeli niemowlę zakrztusiło się, ale nie kaszle, bądź kaszel jest nieefektywny. Co robisz?</string>
+    <string name="ZQ2A1">Naprzemiennie wykonuję 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć klatki piersiowe</string>
+    <string name="ZQ2A2">Naprzemiennie wykonuję 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć nadbrzusza</string>
+    <string name="ZQ2A3">Wzywam pomoc i przechodzę do resuscytacji – 30 uciśnięć : 2 wdechy</string>
+    <string name="ZQ2A4">Wzywam pomoc i przechodzę do resuscytacji –  15 uciśnięć : 2 wdechy</string>
+    <string name="ZQ2E"> Przy zadławieniu dziecka, nasze postępowanie zależy od jego stanu. Jeżeli nie kaszle, lub kaszel jest nieefektywny a dziecko jest przytomne, wykonujemy naprzemiennie: 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć nadbrzusza - u dzieci powyżej 1 roku życia. 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć klatki piersiowej - u niemowląt</string>
+
+    <string name="ZQ3">Jeżeli dorosły zakrztusił się, ale nie kaszle, bądź kaszel jest nieefektywny. Co robisz?</string>
+    <string name="ZQ3A1">Naprzemiennie wykonuję 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć nadbrzusza</string>
+    <string name="ZQ3A2">Naprzemiennie wykonuję 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć klatki piersiowej</string>
+    <string name="ZQ3A3">Wzywam pomoc i przechodzę do resuscytacji – 30 uciśnięć : 2 wdechy</string>
+    <string name="ZQ3A4">Wzywam pomoc i przechodzę do resuscytacji –  15 uciśnięć : 2 wdechy</string>
+    <string name="ZQ3E">Przy zadławieniu osoby dorosłej, nasze postępowanie zależy od jej stanu.\n Jeżeli nie kaszle, lub kaszel jest nieefektywny a osoba jest przytomna, wykonujemy naprzemiennie 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć nadbrzusza</string>
+
+    <string name="ZQ4">Jeżeli niemowlę po zakrztuszeniu się, straciło przytomność (zwiotczało). Co robisz?</string>
+    <string name="ZQ4A1">Po wykonaniu 5 wdechów ratowniczych, wzywam pomoc i przechodzę do resuscytacji – 30 uciśnięć : 2 wdechy</string>
+    <string name="ZQ4A2">Naprzemiennie wykonuję 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć klatki piersiowej</string>
+    <string name="ZQ4A3">Naprzemiennie wykonuję 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć nadbrzusza</string>
+    <string name="ZQ4A4">Biegnę do szpitala po pomoc</string>
+    <string name="ZQ4E"> Przy zadławieniu dziecka, nasze postępowanie zależy od jego stanu.\n Jeżeli dziecko straciło przytomność, wykonujemy 5 wdechów ratowniczych i przechodzimy do resuscytacji krążeniowo-oddechowej (30 uciśnięć : 2 wdechy)</string>
+
+    <string name="ZQ5">Jeżeli dorosły po zakrztuszeniu się, stracił przytomność. Co robisz?</string>
+    <string name="ZQ5A1">Wzywam pomoc i przechodzę do resuscytacji – 30 uciśnięć : 2 wdechy</string>
+    <string name="ZQ5A2">Naprzemiennie wykonuję 5 uciśnięć w okolicę międzyłopatkową i  5 uciśnięć klatki piersiowej</string>
+    <string name="ZQ5A3">Wzywam pomoc i przechodzę do resuscytacji – 30 uciśnięć : 2 wdechy</string>
+    <string name="ZQ5A4">Wzywam pomoc i przechodzę do resuscytacji – 15 uciśnięć : 2 wdechy</string>
+    <string name="ZQ5E">Przy zadławieniu osoby dorosłej, nasze postępowanie zależy od jej stanu.\n Jeżeli osoba straciła przytomność, przechodzimy do resuscytacji krążeniowo-oddechowej (30 uciśnięć : 2 wdechy)</string>
+
+    <string name="ZQ6">Jeżeli niemowlę zakrztusiło się, ale nie kaszle, bądź kaszel jest nieefektywny. Po ułożeniu niemowlęcia na przedramieniu, podczas wykonywania uderzeń między łopatki:</string>
+    <string name="ZQ6A1">Poddtrzymuję głowę niemowlęcia, tak by wykrztuszona rzecz wypadła na dłoń</string>
+    <string name="ZQ6A2">Pozwalam głowie niemowlaka zwisać swobodnie</string>
+    <string name="ZQ6A3">Odginam głowę niemowlaka maksymalnie do tyłu</string>
+    <string name="ZQ6A4">Dzwonię po pomoc</string>
+    <string name="ZQ6E">Po ułożeniu niemowlęcia na przedramieniu, podczas wykonywania uderzeń między łopatki poddtrzymujemy głowę niemowlęcia, tak by wykrztuszona rzecz wypadła na dłoń</string>
+
+    <string name="ZQ7">W przypadku osoby dorosłej próba usunięcia ciała obcego „na ślepo”:</string>
+    <string name="ZQ7A1">Jest niewskazana – można doprowadzić do urazu. Ciała obce można usuwać tylko gdy się je widzi</string>
+    <string name="ZQ7A2">Jest wskazana – należy ją wykonać póki poszkodowany jest przytomny</string>
+    <string name="ZQ7A3">Jest wskazana – należy ją wykonać kiedy poszkodowany straci przytomność</string>
+    <string name="ZQ7A4">Jest konieczna – należy ją wykonać jak najszybciej</string>
+    <string name="ZQ7E">Próba usunięcia ciała obcego z dróg oddechowych “na ślepo” może spowodować pogłębienie urazu.\n Można usunąć ciało obce, tylko jeżeli jest ono widoczne i mamy pewność, że uda nam się je wyciągnąć</string>
+
+    <string name="ZQ8">Jeśli dziecko po zadławieniu kaszle efektywnie. Co robisz?</string>
+    <string name="ZQ8A1">Zachęcam je do kaszlu i nieustannie obserwuj</string>
+    <string name="ZQ8A2">Wołam o pomoc i oceniam stan świadomości dziecka</string>
+    <string name="ZQ8A3">Wykonaju 5 uderzeń w okolicę międzyłopatkową</string>
+    <string name="ZQ8A4">Wykonaje 5 uciśnięć klatki piersiowe</string>
+    <string name="ZQ8E">Przy zadławieniu dziecka, nasze postępowanie zależy od jego stanu.\n Jeżeli kaszle, a jej kaszel jest efektywny - zachęcamy do dalszego kaszlu i monitorujemy jego stan, by móc zareagować na ewentualne pogorszenie</string>
+
 </resources>
