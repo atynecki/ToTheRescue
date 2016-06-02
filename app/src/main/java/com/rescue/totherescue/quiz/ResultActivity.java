@@ -9,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.rescue.totherescue.R;
-import com.rescue.totherescue.quiz.model.Quiz;
 
 public class ResultActivity extends AppCompatActivity {
 
@@ -65,19 +64,15 @@ public class ResultActivity extends AppCompatActivity {
 
         if(correct_precent >= high_ths)
         {
-            drawableImageID = R.drawable.good;
-            result_image.setImageDrawable(getResources().getDrawable(drawableImageID));
+            result_image.setImageResource(R.drawable.good);
         }
         else if(correct_precent <= low_ths)
         {
-            drawableImageID = R.drawable.bad;
-            result_image.setImageDrawable(getResources().getDrawable(drawableImageID));
+            result_image.setImageResource(R.drawable.bad);
         }
         else
         {
-            drawableImageID = R.drawable.medium;
-            result_image.setImageDrawable(getResources().getDrawable(drawableImageID));
+            result_image.setImageResource(R.drawable.medium);
         }
-
     }
 }

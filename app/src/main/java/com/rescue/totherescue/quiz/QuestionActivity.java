@@ -2,15 +2,21 @@ package com.rescue.totherescue.quiz;
 
 import android.content.Intent;
 import android.os.CountDownTimer;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.rescue.totherescue.CaseActivity;
 import com.rescue.totherescue.R;
+import com.rescue.totherescue.quiz.model.Question;
 import com.rescue.totherescue.quiz.model.Quiz;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class QuestionActivity extends AppCompatActivity {
 
@@ -24,8 +30,9 @@ public class QuestionActivity extends AppCompatActivity {
     private TextView timer_view;
     private TextView question_counter;
 
-    private int current_question;
-    private int correct_answer_num;
+    private int current_question_num;
+    private Question current_question;
+    private String current_answer;
 
     private final TimeCounter timer = new TimeCounter(30000,100);
 
@@ -44,7 +51,8 @@ public class QuestionActivity extends AppCompatActivity {
         option3 = (Button) findViewById(R.id.button_option3);
         option4 = (Button) findViewById(R.id.button_option4);
 
-        current_question = 0;
+        current_question_num = 0;
+        current_question = new Question();
 
         timer_view = (TextView) findViewById(R.id.textView_timer);
         question_counter = (TextView) findViewById(R.id.textView_question_num);
@@ -56,14 +64,40 @@ public class QuestionActivity extends AppCompatActivity {
             }
         });
 
+        option1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verifyAnswer((String) option1.getText());
+            }
+        });
+
+        option2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verifyAnswer((String)option2.getText());
+            }
+        });
+
+        option3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verifyAnswer((String)option3.getText());
+            }
+        });
+
+        option4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verifyAnswer((String)option4.getText());
+            }
+        });
+
         setNextQuestion();
     }
 
     private void setResult ()
     {
         Intent intent = new Intent( QuestionActivity.this, ResultActivity.class);
-        quiz.setCorrect_answer(4);
-        quiz.setWrong_answer(4);
         intent.putExtra("correct", quiz.getCorrect_answer());
         intent.putExtra("wrong", quiz.getWrong_answer());
         startActivity(intent);
@@ -71,15 +105,54 @@ public class QuestionActivity extends AppCompatActivity {
 
     private void updateQuestionCounter ()
     {
-        question_counter.setText(String.valueOf(current_question)+"/"+String.valueOf(quiz.getQuestion_number()));
+        question_counter.setText(String.valueOf(current_question_num) + "/" + String.valueOf(quiz.getQuestion_number()));
     }
 
     private void setNextQuestion ()
     {
-        current_question++;
+        if(current_question_num >= quiz.getQuestion_number())
+        {
+            setResult();
+        }
+        else
+        {
+            current_question = quiz.getQuestions().get(current_question_num++);
 
-        updateQuestionCounter();
-        timer.start();
+            question.setText(current_question.getQuestion());
+            current_answer = current_question.getOption1();
+
+            String[] q_shuffle = {current_question.getOption1(), current_question.getOption2(), current_question.getOption3(), current_question.getOption4()};
+            Collections.shuffle(Arrays.asList(q_shuffle));
+
+            option1.setText(q_shuffle[0]);
+            option2.setText(q_shuffle[1]);
+            option3.setText(q_shuffle[2]);
+            option4.setText(q_shuffle[3]);
+
+            updateQuestionCounter();
+            timer.start();
+        }
+    }
+
+    void showDialogFragment(String text)
+    {
+        FragmentManager fm = getSupportFragmentManager();
+        DialogFragment newFragment = ExplanationFragment.getInstance(text);
+        newFragment.show(fm, null);
+    }
+
+    private void verifyAnswer (String answer)
+    {
+        if(current_answer.equals(answer))
+        {
+            quiz.setCorrectAnswer();
+            setNextQuestion();
+        }
+        else
+        {
+            showDialogFragment(current_question.getExplanation());
+            setNextQuestion();
+        }
     }
 
     public class TimeCounter extends CountDownTimer {
@@ -90,7 +163,7 @@ public class QuestionActivity extends AppCompatActivity {
 
         @Override
         public void onFinish() {
-            if(current_question < quiz.getQuestion_number())
+            if(current_question_num < quiz.getQuestion_number())
             {
                 setNextQuestion();
             }

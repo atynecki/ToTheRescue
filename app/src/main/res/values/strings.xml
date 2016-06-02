@@ -67,8 +67,413 @@
     <string name="ZQ8">Jeśli dziecko po zadławieniu kaszle efektywnie. Co robisz?</string>
     <string name="ZQ8A1">Zachęcam je do kaszlu i nieustannie obserwuj</string>
     <string name="ZQ8A2">Wołam o pomoc i oceniam stan świadomości dziecka</string>
-    <string name="ZQ8A3">Wykonaju 5 uderzeń w okolicę międzyłopatkową</string>
-    <string name="ZQ8A4">Wykonaje 5 uciśnięć klatki piersiowe</string>
+    <string name="ZQ8A3">Wykonuje 5 uderzeń w okolicę międzyłopatkową</string>
+    <string name="ZQ8A4">Wykonuje 5 uciśnięć klatki piersiowe</string>
     <string name="ZQ8E">Przy zadławieniu dziecka, nasze postępowanie zależy od jego stanu.\n Jeżeli kaszle, a jej kaszel jest efektywny - zachęcamy do dalszego kaszlu i monitorujemy jego stan, by móc zareagować na ewentualne pogorszenie</string>
+
+
+    <!-- Toniecie -->
+    <string name="TQ1">Osobie, która uległa podtopieniu, po wyjęciu z wody należy:</string>
+    <string name="TQ1A1">udrożnić drogi oddechowe i w przypadku braku oddechu prowadzić pośredni masaż serca i oddech zastępczy.</string>
+    <string name="TQ1A2">natychmiast okryć ciało folią życia, chroniąc przed wychłodzeniem.</string>
+    <string name="TQ1A3">wylać wodę z dróg oddechowych poprzez odpowiednie ułożenie.</string>
+    <string name="TQ1A4">wszystkie powyższe odpowiedzi są prawdziwe</string>
+    <string name="TQ1E">Przy podtopieniu należy jak najszybciej wydostać osobę spod wody.\n Przy utracie przytomności, oddechu już w momencie wydobycia na powierzchnie zalecane jest podanie mu pierwszego sztucznego oddechu. \n przed rozpoczęciem resuscytacji nie należy stosować żadnych zabiegów w celu usunięcia wody z przewodu pokarmowego i dróg oddechowych. \n Jest to zabieg powodujący stratę cennego czasu.</string>
+
+    <string name="TQ2">Wskaż zdanie prawdziwe:</string>
+    <string name="TQ2A1">Postępowanie z osobą podtopioną jest takie samo, niezależnie od rodzaju wody.</string>
+    <string name="TQ2A2">Woda słodka się nie wchłania i należy ja wylać z poszkodowanego.</string>
+    <string name="TQ2A3">Przy utonięciu w wodzie słodkiej rokowanie jest lepsze.</string>
+    <string name="TQ2A4">Woda słona uszkadza drogi oddechowe i należy ją najpierw wylać z układu oddechowego poszkodowanego.</string>
+    <string name="TQ2E">Rodzaj wody nie ma wpływu na rokowania i postępowanie z osobą podtopioną.</string>
+
+    <string name="TQ3">W przypadku podtopienia prowadzenie oddechu zastępczego należy rozpocząć:</string>
+    <string name="TQ3A1">jak najwcześniej, w miarę możliwości jeszcze w wodzie</string>
+    <string name="TQ3A2">po wylaniu wody z dróg oddechowych</string>
+    <string name="TQ3A3">po zapewnieniu stabilizacji kręgosłupa szyjnego</string>
+    <string name="TQ3A4">po 5 min od wyjęcia z wody by mogła się ona wchłonąć z płuc</string>
+    <string name="TQ3E">Przy podtopieniu należy jak najszybciej wydostać osobę spod wody.\n Przy utracie przytomności, oddechu już w momencie wydobycia na powierzchnie zalecane jest podanie mu pierwszego sztucznego oddechu. \n przed rozpoczęciem resuscytacji nie należy stosować żadnych zabiegów w celu usunięcia wody z przewodu pokarmowego i dróg oddechowych. \n Jest to zabieg powodujący stratę cennego czasu.</string>
+
+
+    <string name="TQ4">Ratując osobę podtopioną należy pamiętać że:</string>
+    <string name="TQ4A1">uzyskanie powrotu czynności życiowych może wystąpić po kilkudziesięciu minutach resuscytacji.</string>
+    <string name="TQ4A2">głowa nie powinna być odchylana z uwagi na możliwość zachłyśnięcia wypitą wodą.</string>
+    <string name="TQ4A3">uciskanie kl. piersiowej i prowadzenie oddechu zastępczego jest mało efektywne z uwagi na wodę w płucach.</string>
+    <string name="TQ4A4">śmierć mózgu następuje szybciej w zimnej wodzie.</string>
+    <string name="TQ4E">Uzyskanie powrotu czynności życiowych u osoby poddtopionej może wystąpić nawet po kilkudziesięciu minutach resuscytacji.\n Resuscytację możemy przerwać tylko na polecenie ratowników z zespołu pogotowia lub gdy opadniemy z sił i nie ma w pobliżu nikogo, kto by nam pomógł.\n Tylko lekarz może stwierdzić zgon.</string>
+
+    <string name="TQ5">Kiedy widzisz, że pod kimś zarwał się lód:</string>
+    <string name="TQ5A1">jeżeli jest taka możliwość należy szybko go przebrać w pożyczone suche ubranie.</string>
+    <string name="TQ5A2">nie ma już dla niego nadziei.</string>
+    <string name="TQ5A3">po wyciągnięciu należy podać mu alkohol na rozgrzanie.</string>
+    <string name="TQ5A4">jak najszybciej pobiegnij w kierunku ofiary, żeby ją wyciągnąć.</string>
+    <string name="TQ5E">Jeśli pod kimś zarwał się lód \n 1. Nie biegnij w kierunku ofiary - lód w tym miejscu może być słaby i może zarwać się również pod tobą; \n 2. Nie podawaj alkoholu- doprowadzi to do dalszego wyziębienia organizmu. \n 3. Zadbaj o komfort termiczny: podaj coś ciepłego do picia, okryj kocem termicznym, przebierz w suche ubranie.</string>
+
+    <string name="TQ6">Po wyniesieniu na brzeg lub w ogóle przed rozpoczęciem resuscytacji u osoby podtopionej:</string>
+    <string name="TQ6A1">nie należy stosować żadnych zabiegów w celu usunięcia wody z przewodu pokarmowego i dróg oddechowych.</string>
+    <string name="TQ6A2">należy wylać całą wodę z dróg oddechowych.</string>
+    <string name="TQ6A3">należy wylać całą wodą z przewodu pokarmowego.</string>
+    <string name="TQ6A4">należy niezwłocznie zapewnić sucha odzież i cieple okrycie np. kocem termicznym</string>
+    <string name="TQ6E">Przy podtopieniu należy jak najszybciej wydostać osobę spod wody.\n Przy utracie przytomności, oddechu już w momencie wydobycia na powierzchnie zalecane jest podanie mu pierwszego sztucznego oddechu. \n przed rozpoczęciem resuscytacji nie należy stosować żadnych zabiegów w celu usunięcia wody z przewodu pokarmowego i dróg oddechowych. \n Jest to zabieg powodujący stratę cennego czasu.</string>
+
+    <string name="TQ7">Kiedy zdołamy przywrócić oddech i krążenie osobie podtopionej:</string>
+    <string name="TQ7A1">należny ją ułożyć na boku w pozycji bocznej ustalonej.</string>
+    <string name="TQ7A2">możemy jej podać alkohol by nie dopuścić do wychłodzenia organizmu.</string>
+    <string name="TQ7A3">należy wylać całą wodę z dróg oddechowych.</string>
+    <string name="TQ7A4">możemy po wezwaniu pogotowia opuścić miejsce wypadku.</string>
+    <string name="TQ7E">Kiedy zdołamy przywrócić oddech i krążenie osobie podtopionej (u której nie podejżewamy urazu kręgosłupa), należny ją ułożyć na boku w pozycji bocznej ustalonej. \n W każdej chwili należy spodziewać się wystąpienia wymiotów - nie wolno dopuścić do zachłyśnięcia.</string>
+
+    <string name="TQ8">Użycie AED u osoby podtopionej:</string>
+    <string name="TQ8A1">jest możliwe, o ile poszkodowany jest osuszony i na suchej powierzchni.</string>
+    <string name="TQ8A2">jest zabronione ze względu na obecność wody w płucach.</string>
+    <string name="TQ8A3">najlepiej, kiedy przeprowadzone będzie jeszcze w trakcie wyciągania jej z wody.</string>
+    <string name="TQ8A4">nie przyniesie żadnego skutku.</string>
+    <string name="TQ8E">W przypadku, gdy poszkodowany znajduje się w mokrym środowisku (np. na basenie, w przypadku utonięcia, itp.) konieczne jest osuszenie klatki piersiowej ofiary przed przyklejeniem elektrod. Ponadto bardzo ważne jest, żeby nikt (również osoba udzielająca pierwszej pomocy) nie dotykał poszkodowanego podczas defibrylacji.</string>
+
+    <!-- Porażenie prądem -->
+    <string name="PQ1">Jesteś świadkiem porażenia prądem:</string>
+    <string name="PQ1A1">Przed podejściem do poszkodowanego odłączasz źródło prądu.</string>
+    <string name="PQ1A2">Jeżeli masz buty na gumowej podeszwie, np. klapki nie musisz odłączać źródła prądu przed podejściem do poszkodowanego</string>
+    <string name="PQ1A3">Najważniejsze jest zapewnienie poszkodowanemu komfortu termicznego – okrycie go folią NRC.</string>
+    <string name="PQ1A4">Najpoważniejszym powikłaniem mogą być drgawki.</string>
+    <string name="PQ1E">Nie wolno dotykać osoby porażonej prądem, zanim nie odłączy się jej od źródła prądu. Odłącz bezpieczniki (korki), wyjmij z gniazdka wtyczkę urządzenia elektrycznego, które spowodowało porażenie.</string>
+
+    <string name="PQ2">Odłączając poszkodowanego od źródła elektrycznego</string>
+    <string name="PQ2A1">należy, najpierw wyłączyć źródło zasilania korzystając np. z wyłączników sieciowych, bezpieczników</string>
+    <string name="PQ2A2">należy to zrobić jak najszybciej, nie zważając na to czy coś nam grozi</string>
+    <string name="PQ2A3">należy na siłę oderwać poszkodowanego od miejsca w którym doszło do porażenia (np. uszkodzonego kabla) a potem odłączyć zasilanie</string>
+    <string name="PQ2A4">należy najpierw zadzwonić do elektrowni, tak by odłączyli prąd</string>
+    <string name="PQ2E">Nie wolno dotykać osoby porażonej prądem, zanim nie odłączy się jej od źródła prądu. Odłącz bezpieczniki (korki), wyjmij z gniazdka wtyczkę urządzenia elektrycznego, które spowodowało porażenie.</string>
+
+    <string name="PQ3">Osobę po porażeniu prądem, która jest nieprzytomna, ale z wydolnym oddychaniem:</string>
+    <string name="PQ3A1">trzeba ułożyć na boku w pozycji bezpiecznej i nadzorować do momentu przejęcia opieki przez pogotowie ratunkowe</string>
+    <string name="PQ3A2">próbuję ocucić przez polanie twarzy wodą</string>
+    <string name="PQ3A3">można, po wezwaniu pogotowia, zostawić bez nadzoru</string>
+    <string name="PQ3A4">możemy uznać za zdrową – nie trzeba do niej wzywać pogotowia</string>
+    <string name="PQ3E">Po ODŁĄCZENIU PRĄDU należy sprawdzić stan poszkodowanego: \nCzy jest przytomny? \nCzy oddycha? \n Nastęnie należy wezwać Pogotowie Ratunkowe \nJeśli ratowany nie oddycha przystąp do reanimacji.\nJeśli ratowany jest nieprzytomny, ale oddycha, ułóż go w pozycji bocznej I MONITORUJ JEGO STAN</string>
+
+    <string name="PQ4">Uszkodzenia i oparzenia skóry prądem należy:</string>
+    <string name="PQ4A1">przykryć jałowym opatrunkiem.</string>
+    <string name="PQ4A2">nasmarować czymś tłustym</string>
+    <string name="PQ4A3">opatrzyć mokrą watą</string>
+    <string name="PQ4A4">przemyć spirytusem</string>
+    <string name="PQ4E">Oparzenia nbależy opatrywać jałowym (może być wilgotny) opatrunkiem. Nie należy ich niczym smarować.</string>
+
+    <string name="PQ5">Po porażeniu prądem, po odłączeniu źródła prądu:</string>
+    <string name="PQ5A1">u osoby porażonej mogą pojawić się objawy wstrząsu pourazowego</string>
+    <string name="PQ5A2">możemy opuścić poszkodowanego przed przyjazdem zespołu pogotowia</string>
+    <string name="PQ5A3">jedyne co możemy zrobić to czekanie na pogotowie</string>
+    <string name="PQ5A4">poszkodowanego należy jak najszybciej ewakuować z miejsca wypadku.</string>
+    <string name="PQ5E">Skutkami porażenia prądu mogą być utrata przytomności i skurcze mięśni (w wyniku których osoba porażona jest niezdolna do samodzielnego uwolnienia się od źródła prądu), oparzenia (w skrajnych przypadkach może dojść do martwicy i zwęgleń tkanki), a także zatrzymanie oddechu i migotanie komór serca, czego skutkiem może być zatrzymanie krążenia, a w konsekwencji śmierć. U osób porażonych mogą występić objawy wstrząsu</string>
+
+    <string name="PQ6">Gdy pacjent po porażeniu prądem jest nieprzytomny i występuje zatrzymanie krążenia oraz oddechu</string>
+    <string name="PQ6A1">należy podjąć czynności resuscytacyjne, tzn. wykonać sztuczne oddychanie oraz masaż serca</string>
+    <string name="PQ6A2">okrywasz go folią życia, by nie doszło do wychłodzenia</string>
+    <string name="PQ6A3">układasz go w pozycji bezpiecznej i czekasz na przyjazd pogotowia, kontrolując jego stan</string>
+    <string name="PQ6A4">stwierdzasz zgon</string>
+    <string name="PQ6E">Po ODŁĄCZENIU PRĄDU należy sprawdzić stan poszkodowanego: \nCzy jest przytomny? \nCzy oddycha? \n Nastęnie należy wezwać Pogotowie Ratunkowe \nJeśli ratowany nie oddycha przystąp do reanimacji.\nJeśli ratowany jest nieprzytomny, ale oddycha, ułóż go w pozycji bocznej I MONITORUJ JEGO STAN</string>
+
+    <string name="PQ7">By zmniejszyć ryzyko porażenia piorunem w trakcie burzy</string>
+    <string name="PQ7A1">nie należy rozkładać parasola</string>
+    <string name="PQ7A2">należy schować się pod drzewo</string>
+    <string name="PQ7A3">należy dotknąć czegoś metalowego wbitego w ziemię</string>
+    <string name="PQ7A4">dobrze jest przebywać na otwartej przestrzeni (np. stać na środku łąki)</string>
+    <string name="PQ7E">W trakcie burzy należy unikać przebywania na otwartej przestrzeni, chronienia się pod wystającymi ponad poziom terenu miejscami (drzewa, maszty), przebywania na wodzie.</string>
+
+    <string name="PQ8">Przy porażeniu prądem i odłączeniu źródła napięcia pierwszą czynnością przy poszkodowanym jest:</string>
+    <string name="PQ8A1">ocena stanu świadomości poszkodowanego</string>
+    <string name="PQ8A2">udrożnienie dróg oddechowych i uciskanie klatki piersiowej</string>
+    <string name="PQ8A3">stabilizacja kręgosłupa szyjnego, udrożnienie dróg oddechowych i prowadzenie oddechu zastępczego</string>
+    <string name="PQ8A4">nie podchodzimy i nie ruszamy poszkodowanego w obawie o pozostały ładunek elektryczny wokół poszkodowanego.</string>
+    <string name="PQ8E">Po ODŁĄCZENIU PRĄDU należy sprawdzić stan poszkodowanego: \nCzy jest przytomny? \nCzy oddycha? \n Nastęnie należy wezwać Pogotowie Ratunkowe \nJeśli ratowany nie oddycha przystąp do reanimacji.\nJeśli ratowany jest nieprzytomny, ale oddycha, ułóż go w pozycji bocznej I MONITORUJ JEGO STAN</string>
+
+    <!-- Oparzenia -->
+    <string name="OQ1">W przypadku oparzenia o dużej powierzchni należy:</string>
+    <string name="OQ1A1">Schładzać oparzone miejsce wodą</string>
+    <string name="OQ1A2">Posmarować oparzoną skórę czymś tłustym</string>
+    <string name="OQ1A3">Jak najszybciej przekłuć powstałe pęcherze</string>
+    <string name="OQ1A4">Posmarować oparzoną skórę alkoholem</string>
+    <string name="OQ1E">Po zdjęciu ubrań i biżuterii z oparzonej powierzchnii należy ochładzać oparzona część ciała czysta chłodna woda od 10 do 20 minut. Po ochłodzeniu poczekać, aż oparzona skóra wyschnie, następnie osłonić opatrunkiem oparzeniowym (hydrogel, aquagel lub mokry opatrunek)</string>
+
+    <string name="OQ2">Jeżeli poszkodowany ma oparzenia w obrębie "okolic wrażliwych" twarzy, szyi, krocza rak, stóp lub w okolicach zgięciowych stawów:</string>
+    <string name="OQ2A1">należy jak najszybciej zapewnić kontakt z lekarzem.</string>
+    <string name="OQ2A2">nie należy ściągać z poszkodowanego odzieży.</string>
+    <string name="OQ2A3">nie są to poważne oparzenia, nie ma potrzeby wzywania pomocy.</string>
+    <string name="OQ2A4">należy delikatnie przemyć miejsca oparzone alkoholem.</string>
+    <string name="OQ2E">Oparzenia w obrębie "okolic wrażliwych" twarzy, szyi, krocza rak, stóp lub w okolicach zgięciowych stawów wymagają natychmiastowej pomocy lekarskiej</string>
+
+    <string name="OQ3">Jeżeli ubranie poszkodowanego się pali lub tli należy:</string>
+    <string name="OQ3A1">ugasić je wodą.</string>
+    <string name="OQ3A2">ugasić je gaśnicą.</string>
+    <string name="OQ3A3">ściągnąć je z poszkodowanego – jeżeli jest wtopione w ciało zerwać.</string>
+    <string name="OQ3A4">jak najszybciej wezwać straż pożarną.</string>
+    <string name="OQ3E">Jeśli ubranie się pali lub tli - ugaś je. Do tego celu NIE używaj gaśnicy. Następnie zdejmij z poszkodowanego ubranie. Jeżeli jest ono wtopione w ciało to nie zrywaj go, tylko wytnij ubranie wokół rany. Jeżeli oparzona jest ręka ściągnij biżuterie - zanim narastający obrzęk uniemożliwi to.</string>
+
+    <string name="OQ4">Jeżeli poszkodowany ma oparzania dłoni</string>
+    <string name="OQ4A1">jeśli to możliwe należy jak najszybciej ściągnąć biżuterię</string>
+    <string name="OQ4A2">należy podgrzać pierścionki by łatwiej było je ściągnąć</string>
+    <string name="OQ4A3">należy zostawić na poszkodowanym biżuterię</string>
+    <string name="OQ4A4">smarujemy oparzone miejsca czymś tłustym, by łatwiej było ściągnąć biżuterię</string>
+    <string name="OQ4E">Jeśli ubranie się pali lub tli - ugaś je. Do tego celu NIE używaj gaśnicy. Następnie zdejmij z poszkodowanego ubranie. Jeżeli jest ono wtopione w ciało to nie zrywaj go, tylko wytnij ubranie wokół rany. Jeżeli oparzona jest ręka ściągnij biżuterie - zanim narastający obrzęk uniemożliwi to.</string>
+
+    <string name="OQ5">W przypadku oparzenia dużej powierzchni ciała należy</string>
+    <string name="OQ5A1">schładzać przez 15 do 30 min chłodną wodą</string>
+    <string name="OQ5A2">zrobić zimne okłady z lodu</string>
+    <string name="OQ5A3">zanurzyć poparzoną osoby w zbiorniku z wodą np. w wannie</string>
+    <string name="OQ5A4">opatrzyć ją jak najszybciej suchym opatrunkiem</string>
+    <string name="OQ5E">Po zdjęciu ubrań i biżuterii z oparzonej powierzchnii należy ochładzać oparzona część ciała czysta chłodna woda od 10 do 20 minut. Po ochłodzeniu poczekać, aż oparzona skóra wyschnie, następnie osłonić opatrunkiem oparzeniowym (hydrogel, aquagel lub mokry opatrunek)</string>
+
+    <string name="OQ6">Opatrunek oparzenia powinien:</string>
+    <string name="OQ6A1">być wilgotny.</string>
+    <string name="OQ6A2">być suchy.</string>
+    <string name="OQ6A3">być niejałowy.</string>
+    <string name="OQ6A4">być nasączony alkoholem.</string>
+    <string name="OQ6E">Po zdjęciu ubrań i biżuterii z oparzonej powierzchnii należy ochładzać oparzona część ciała czysta chłodna woda od 10 do 20 minut. Po ochłodzeniu poczekać, aż oparzona skóra wyschnie, następnie osłonić opatrunkiem oparzeniowym (hydrogel, aquagel lub mokry opatrunek)</string>
+
+    <string name="OQ7">W przypadku oparzeń twarzy</string>
+    <string name="OQ7A1">jest duże prawdopodobieństwo, że poszkodowany będzie miał problemy z oddychaniem</string>
+    <string name="OQ7A2">należy na 15 do 30 min zanużyć oparzone miejsca w zimnej wodzie</string>
+    <string name="OQ7A3">najniebezpieczniejszym  powikłaniem są szpecące blizny</string>
+    <string name="OQ7A4">należy nasmarować grubą warstwą kremu po opalaniu</string>
+    <string name="OQ7E">W przypadku oparzeń twarzy jest duże prawdopodobieństwo, że poszkodowany będzie miał problemy z oddychaniem. Oparzenia w obrębie okolic wrażliwych wymagają pilnej pomocy lekarskiej.</string>
+
+    <string name="OQ8">Przy oparzeniu parą wodną obu rąk należy:</string>
+    <string name="OQ8A1">schładzać obficie wodą i wezwać pomoc.</string>
+    <string name="OQ8A2">pokryć powierzchnię suchym, jałowym opatrunkiem.</string>
+    <string name="OQ8A3">wezwać pomoc i podawać środki przeciwbólowe.</string>
+    <string name="OQ8A4">okryć folią „życia” w celu ochrony przed wychłodzeniem.</string>
+    <string name="OQ8E">Po zdjęciu ubrań i biżuterii z oparzonej powierzchnii należy ochładzać oparzona część ciała czysta chłodna woda od 10 do 20 minut. Po ochłodzeniu poczekać, aż oparzona skóra wyschnie, następnie osłonić opatrunkiem oparzeniowym (hydrogel, aquagel lub mokry opatrunek)</string>
+
+    <!-- Rany -->
+
+    <string name="RQ1">Co należy robić przy krwotoku z nogi?</string>
+    <string name="RQ1A1">Opatrzyć ranę i unieść kończynę do góry</string>
+    <string name="RQ1A2">Opatrzyć ranę i uciskać poniżej zranienia</string>
+    <string name="RQ1A3">Obwiązać i ucisnąć daną kończynę w kostce</string>
+    <string name="RQ1A4">Ułożyć poszkodowanego w pozycji bezpiecznej</string>
+    <string name="RQ1E">Lekkie krwawienie ustępuje samoistnie, należy założyć jałowy opatrunek. Silne – należy zatamować miejscowym uciśnięciem rany. Można ucisnąć również tętnicę doprowadzającą krew. Ta metoda stosowana jest głownie w przypadku krwawienia na kończynach i polega na: \n - uniesieniu kończyny do góry, powyżej serca, dzięki czemu zmniejsza się ukrwienie, \n - uciśnięciu odpowiednich tętnic powyżej krwawiącego miejsca.</string>
+
+    <string name="RQ2">Rękawiczki ochronne zakładamy:</string>
+    <string name="RQ2A1">zawsze, przed podjęciem czynności na miejscu zdarzenia.</string>
+    <string name="RQ2A2">gdy osoba ranna jest chora na choroby zakaźne.</string>
+    <string name="RQ2A3">gdy osoba ranna ma złamania otwarte.</string>
+    <string name="RQ2A4">tylko gdy osoba ranna krwawi.</string>
+    <string name="RQ2E">Lekkie krwawienie ustępuje samoistnie, należy założyć jałowy opatrunek. Silne – należy zatamować miejscowym uciśnięciem rany. Można ucisnąć również tętnicę doprowadzającą krew. Ta metoda stosowana jest głownie w przypadku krwawienia na kończynach i polega na: \n - uniesieniu kończyny do góry, powyżej serca, dzięki czemu zmniejsza się ukrwienie, \n - uciśnięciu odpowiednich tętnic powyżej krwawiącego miejsca.</string>
+
+    <string name="RQ3">Bezpośrednio na ranę należy położyć:</string>
+    <string name="RQ3A1">jałową gazę.</string>
+    <string name="RQ3A2">ligninę.</string>
+    <string name="RQ3A3">watę.</string>
+    <string name="RQ3A4">folię NRC.</string>
+    <string name="RQ3E">Lekkie krwawienie ustępuje samoistnie, należy założyć jałowy opatrunek. Silne – należy zatamować miejscowym uciśnięciem rany. Można ucisnąć również tętnicę doprowadzającą krew. Ta metoda stosowana jest głownie w przypadku krwawienia na kończynach i polega na: \n - uniesieniu kończyny do góry, powyżej serca, dzięki czemu zmniejsza się ukrwienie, \n - uciśnięciu odpowiednich tętnic powyżej krwawiącego miejsca.</string>
+
+    <string name="RQ4">Co należy zrobić w przypadku wystąpienia u ofiary wypadku krwotoku z przedramienia?</string>
+    <string name="RQ4A1">Ucisnąć miejsce krwawienia palcem lub dłonią podnosząc kończynę do góry.</string>
+    <string name="RQ4A2">Przekrwawiające opatrunki należy zdjąć i zastąpić nowymi, czystymi.</string>
+    <string name="RQ4A3">Założyć niejałowy opatrunek na ranę.</string>
+    <string name="RQ4A4">Należy zabandażować ranę razem z ubraniami, by było więcej warstw opatrunku.</string>
+    <string name="RQ4E">Lekkie krwawienie ustępuje samoistnie, należy założyć jałowy opatrunek. Silne – należy zatamować miejscowym uciśnięciem rany. Można ucisnąć również tętnicę doprowadzającą krew. Ta metoda stosowana jest głownie w przypadku krwawienia na kończynach i polega na: \n - uniesieniu kończyny do góry, powyżej serca, dzięki czemu zmniejsza się ukrwienie, \n - uciśnięciu odpowiednich tętnic powyżej krwawiącego miejsca.</string>
+
+    <string name="RQ5">Opatrunek uciskowy stosujemy w przypadku:</string>
+    <string name="RQ5A1">krwotoku</string>
+    <string name="RQ5A2">zmiażdżenia kończyny</string>
+    <string name="RQ5A3">wycieku krwistej wydzieliny z nosa</string>
+    <string name="RQ5A4">otwartego złamania</string>
+    <string name="RQ5E">Lekkie krwawienie ustępuje samoistnie, należy założyć jałowy opatrunek. Silne – należy zatamować miejscowym uciśnięciem rany. Można ucisnąć również tętnicę doprowadzającą krew. Ta metoda stosowana jest głownie w przypadku krwawienia na kończynach i polega na: \n - uniesieniu kończyny do góry, powyżej serca, dzięki czemu zmniejsza się ukrwienie, \n - uciśnięciu odpowiednich tętnic powyżej krwawiącego miejsca.</string>
+
+    <string name="RQ6">W miejscu wypadku znajdujesz odcięty lub urwany palec jednej z ofiar wypadku. W jaki sposób zabezpieczysz tę część ciała?</string>
+    <string name="RQ6A1">Palec umieszczę w sterylnej gazie, suchym worku foliowym, a ten w wodzie z lodem.</string>
+    <string name="RQ6A2">Zamrożę.</string>
+    <string name="RQ6A3">Pozostawię bez zabezpieczenia w miejscu wypadku.</string>
+    <string name="RQ6A4">Dokładnie umyję letnią wodą z dodatkiem mydła.</string>
+    <string name="RQ6E">Jeżeli uda nam się odnaleźć amputowaną część ciała należy ją zabezpieczyć owijając w jałową gazę a następnie umieszczając w foliowym worku umieszczonym w naczyniu lub drugim worku zawierającym wodę z lodem ( NIE WOLNO STOSOWAĆ SAMEGO LODU – AMPOUTOWANY ORGAN MA BYĆ SCHŁODZONY, A NIE ZAMROŻONY!)</string>
+
+    <string name="RQ7">Poszkodowany ma wbity w dłoń ostry przedmiot – np. śrubokręt</string>
+    <string name="RQ7A1">Usuwam go z rany, unoszę zranioną kończynę do góry, opatruję ranę.</string>
+    <string name="RQ7A2">Usuwam go z rany, unoszę zranioną kończynę do góry, opatruję ranę.</string>
+    <string name="RQ7A3">Usuwam go z rany, stosuję opatrunek uciskowy.</string>
+    <string name="RQ7A4">Układam poszkodowanego w pozycji bezpiecznej.</string>
+    <string name="RQ7E">Jeżeli w ranie znajduje się jakieś ciało obce nie wyciągaj go. Wezwij pogotowie ratunkowe,  zabezpiecz przedmiot, aby nie wypadł z rany. Pozostań z poszkodowanym i nie pozwól mu się ruszać. Czekaj na ekipę pogotowia. W przypadku gdy przedmiot wypadnie z rany nie wkładaj go z powrotem. </string>
+
+    <string name="RQ8">W ranie widoczne są narządy wewnętrzne, np. jelita:</string>
+    <string name="RQ8A1">przykrywam je jałową, wilgotną gazą a następnie okrywam folią NRC</string>
+    <string name="RQ8A2">próbuję wprowadzić je z powrotem do jamy brzusznej, upchnąć.</string>
+    <string name="RQ8A3">zakładam opatrunek uciskowy</string>
+    <string name="RQ8A4">przemywam spirytusem</string>
+    <string name="RQ8E">W przypadku wytrzewienia nie należy upychać wnętrzności do rany. Możemy zastosować wilgotny opatrunek okryty następnie folią, tak by ograniczyć ryzyko nadmiernej utraty płynów</string>
+
+    <!-- Resuscytacja Krążeniowo Oddechowa -->
+
+    <string name="RKOQ1">Czym charakteryzuje się poprawne wykonanie oddechu ratowniczego?</string>
+    <string name="RKOQ1A1">Klatka piersiowa poszkodowanego się unosi.</string>
+    <string name="RKOQ1A2">Poszkodowany sinieje.</string>
+    <string name="RKOQ1A3">Poszkodowany nagle gwałtownie łyka powietrze.</string>
+    <string name="RKOQ1A4">Poszkodowany zaczyna się krztusić.</string>
+    <string name="RKOQ1E">Aby wykonać oddechy ratownicze należy objąć swoimi ustami usta poszkodowanego i wykonać normalny wydech. Przyjmuje się, że powinien trwać ok. 1 sekundy. Po pierwszym takim "oddech ratunkowym" należy odczekać chwilę, kontrolując jednocześnie, czy wdmuchnięte powietrze wydostaje się ponownie na zewnątrz i po chwili wykonać drugi, taki sam oddech ratunkowy. Podczas wykonywania wdechu klatka piersiowa poszkodowanego powinna unieść się do góry</string>
+
+    <string name="RKOQ2">By udrożnić drogi oddechowe pacjenta podczas reanimacji należy:</string>
+    <string name="RKOQ2A1">położyć go na plecach i odchylić głowę go tyłu.</string>
+    <string name="RKOQ2A2">położyć go na brzuchu lub boku i dogiąć brodę do klatki piersiowej.</string>
+    <string name="RKOQ2A3">tak go ułożyć, by głowa była zdecydowanie wyżej niż reszta ciała.</string>
+    <string name="RKOQ2A4">uciskać klatkę piersiową w rytmie ok. 100razy/minutę.</string>
+    <string name="RKOQ2E">Aby udrożnić drogi oddechowe należy odwrócić poszkodowanego na plecy, umieścić jedną rękę na jego czole i delikatnie odgiąć jego głowę. \n Opuszki palców drugiej ręki umieścić na żuchwie poszkodowanego, a następnie unieść ją</string>
+
+    <string name="RKOQ3">W jakim rytmie wykonujemy uciskanie klatki piersiowej?</string>
+    <string name="RKOQ3A1">Około 100 razy na minutę</string>
+    <string name="RKOQ3A2">Około 60 razy na minutę</string>
+    <string name="RKOQ3A3">Około 40 razy na minutę</string>
+    <string name="RKOQ3A4">Najszybciej jak to możliwe</string>
+    <string name="RKOQ3E">Uciskanie klatki piersiowej wykonuje się naprzemiennie z oddechem w stosunku 30:2 – 30 uciśnięć na 2 oddechy: \n Uciskać klatkę piersiową ciężarem swojego ciała na głębokość 5 ale nie więcej niż 6 cm. \n Kontynuować uciskanie z częstością 100/min ale nie więcej jak 120/min nie odrywając rąk od klatki piersiowej. \n Uciskać 30 razy, a następnie wykonać 2 oddechy ratownicze</string>
+
+    <string name="RKOQ4"> Reanimacja osoby dorosłej powinna być prowadzona w stosunku:</string>
+    <string name="RKOQ4A1">30:2 (30 uciśnięć klatki piersiowej, 2 oddechy)</string>
+    <string name="RKOQ4A2">15:2 (15 uciśnięć klatki piersiowej, 2 oddechy)</string>
+    <string name="RKOQ4A3">10:1 (10 uciśnięć klatki piersiowej, 1 oddech)</string>
+    <string name="RKOQ4A4">2:30 (2 uciśnięcia klatki piersiowej, 30 oddechów)</string>
+    <string name="RKOQ4E">Uciskanie klatki piersiowej wykonuje się naprzemiennie z oddechem w stosunku 30:2 – 30 uciśnięć na 2 oddechy: \n Uciskać klatkę piersiową ciężarem swojego ciała na głębokość 5 ale nie więcej niż 6 cm. \n Kontynuować uciskanie z częstością 100/min ale nie więcej jak 120/min nie odrywając rąk od klatki piersiowej. \n Uciskać 30 razy, a następnie wykonać 2 oddechy ratownicze</string>
+
+    <string name="RKOQ5">AED to:</string>
+    <string name="RKOQ5A1">Automatyczny Defibrylator Zewnętrzny</string>
+    <string name="RKOQ5A2">Automatyczny Elektroniczny Dozownik</string>
+    <string name="RKOQ5A3">Elektroniczny Analizator Rytmu Serca</string>
+    <string name="RKOQ5A4">Domięśniowy środek rozkurczający</string>
+    <string name="RKOQ5E"> AED to Automatyczny defibrylator zewnętrzny – urządzenie, które za pomocą poleceń prowadzi zarówno osoby udzielające pomocy przez procedurę bezpiecznej defibrylacji.</string>
+
+    <string name="RKOQ6">Jeżeli ofiara wypadku nie oddycha, lecz ma tętno to należy:</string>
+    <string name="RKOQ6A1">udrożnić drogi oddechowe, a gdy to nie da efektu rozpocząć sztuczne oddychanie.</string>
+    <string name="RKOQ6A2">nie dotykać ofiary, wezwać pomoc.</string>
+    <string name="RKOQ6A3">natychmiast rozpocząć masaż serca i sztuczne oddychanie.</string>
+    <string name="RKOQ6A4">udać się po pomoc osobiście (np. podbiec do szpitala).</string>
+    <string name="RKOQ6E">Jeżeli ofiara wypadku nie oddycha, lecz ma tętno to należy udrożnić drogi oddechowe, a gdy to nie da efektu rozpocząć sztuczne oddychanie. Jeżeli nie wiesz jak, możesz nie sprawdzać tętna, a przy braku oddechu po udrożnieniu dóg oddechowych od razu przechodzisz do resuscytacji</string>
+
+    <string name="RKOQ7">Po stwierdzeniu braku oddechu u małego dziecka (ok 8-9 mies.) najpierw wykonujemy:</string>
+    <string name="RKOQ7A1">5 wdechów ratowniczych.</string>
+    <string name="RKOQ7A2">2 wdechy ratownicze.</string>
+    <string name="RKOQ7A3">30 uciśnięć.</string>
+    <string name="RKOQ7A4">15 uciśnięć.</string>
+    <string name="RKOQ7E">Ponieważ u dzieci najczęściej dochodzi do zatrzymania krążenia w związku z niedotlenieniem resuscytację zaczynamy od 5 wdechów ratowniczych.</string>
+
+    <string name="RKOQ8">W przypadku zatrzymania krążenia u kobiety ciężarnej:</string>
+    <string name="RKOQ8A1">Resuscytację należy przeprowadzać według schematu dla osoby dorosłej, uważając aby nie uciskać brzucha poszkodowanej, podkładając coś pod prawe biodro</string>
+    <string name="RKOQ8A2">Uciskamy brzuch by uratować nienarodzone dziecko.</string>
+    <string name="RKOQ8A3">Przeprowadzamy RKO w schemacie 30:4.</string>
+    <string name="RKOQ8A4">Nie udrażniamy dróg oddechowych, ze względu na częste nudności kobiet w ciązy.</string>
+    <string name="RKOQ8E">Uniesienie prawego biodra o kąt 30 stopni eliminuje ucisk macicy na aortę i żyłę główną dolną.</string>
+
+    <!-- Utrata przytomności -->
+
+    <string name="UPQ1">Na przystanku autobusowym leży na brzuchu mężczyzna w wieku ok. 55 lat, przede wszystkim:</string>
+    <string name="UPQ1A1">układasz go na wznak i sprawdzasz oznaki życia</string>
+    <string name="UPQ1A2">zapewne jest pijany i wzywasz policję.</string>
+    <string name="UPQ1A3">wsiadasz do autobusu bo nadjechał ten na który czekałeś.</string>
+    <string name="UPQ1A4">pytasz czy jest w pobliżu lekarz.</string>
+    <string name="UPQ1E">Kto człowiekowi znajdującemu się w położeniu grożącym bezpośrednim niebezpieczeństwem utraty życia albo ciężkiego uszczerbku na zdrowiu nie udziela pomocy, mogąc jej udzielić bez narażenia siebie lub innej osoby na niebezpieczeństwo utraty życia albo ciężkiego uszczerbku na zdrowiu, podlega karze pozbawienia wolności do lat 3.</string>
+
+    <string name="UPQ2">Co należy robić w przypadku omdlenia?</string>
+    <string name="UPQ2A1">Podczas gdy poszkodowany leży na plecach, unieść jego nogi ok. 30 cm do góry</string>
+    <string name="UPQ2A2">Miarowo uderzać poszkodowanego w policzki w rytmie ok. 100x/min</string>
+    <string name="UPQ2A3">Podnieść chorego tak, by przyjął pozycję stojącą</string>
+    <string name="UPQ2A4">Zanurzyć mu na chwilę głowę pod kranem z zimną wodą</string>
+    <string name="UPQ2E">Poszkodowanego przytomnego kładzie się na plecach z nogami uniesionymi na wysokość około 30 cm. Mechanizm działania tej pozycji polega na zwiększeniu dopływu krwi do serca, płuc, mózgu.Ułożenia tego nie stosuje się przy złamaniu miednicy, uszkodzeniach czaszkowo-mózgowych, ran głowy oraz uszkodzeniach klatki piersiowej i brzucha. Stosowana również przy podejrzeniu rozwijania się wstrząsu.</string>
+
+    <string name="UPQ3">W jaki sposób sprawdzisz przytomność u poszkodowanego (dorosłego)?</string>
+    <string name="UPQ3A1">Chwycę poszkodowanego za barki i lekko potrząsając zapytam np. Co się stało?</string>
+    <string name="UPQ3A2">Poklepię go po twarzy.</string>
+    <string name="UPQ3A3">Poleję wodą.</string>
+    <string name="UPQ3A4">Zadzwonię po pogotowie.</string>
+    <string name="UPQ3E">Sprawdzając przytomność (osobie u której możemy wykluczyć uraz kręgosłupa), chwytamy poszkodowanego za barki i lekko potrząsając pytamy np. Co się stało?.</string>
+
+    <string name="UPQ4">Przez ile czasu będziesz sprawdzał oddech u poszkodowanej osoby?</string>
+    <string name="UPQ4A1">10s</string>
+    <string name="UPQ4A2">20s</string>
+    <string name="UPQ4A3">60s</string>
+    <string name="UPQ4A4">2s</string>
+    <string name="UPQ4E">U poszkodowanego sprawdzamy oddech przez 10 s słuchając, wyczuwając na policzku i obserwując klatkę piersiową. Spodziewamy się usłyszeć 2 do 3 oddechy (12 do 18 oddechów na minutę) </string>
+
+    <string name="UPQ5">Jaką częstość oddechu uznasz za prawidłową?</string>
+    <string name="UPQ5A1">12 do 18 razy / minutę</string>
+    <string name="UPQ5A2">60 do 90 razy / minutę</string>
+    <string name="UPQ5A3">30 do 45 razy / minutę</string>
+    <string name="UPQ5A4">20 do 30 razy / minutę</string>
+    <string name="UPQ5E">U poszkodowanego sprawdzamy oddech przez 10 s słuchając, wyczuwając na policzku i obserwując klatkę piersiową. Spodziewamy się usłyszeć 2 do 3 oddechy (12 do 18 oddechów na minutę) </string>
+
+    <string name="UPQ6">Osoba omdlała na ławce i osunęła się na ziemię, oddycha, czekasz na wezwaną pomoc, co robisz?</string>
+    <string name="UPQ6A1">Układam poszkodowanego w pozycji bezpiecznej.</string>
+    <string name="UPQ6A2">Odchodzę z miejsca zdarzenia, pomoc już jedzie.</string>
+    <string name="UPQ6A3">Oblewam twarz wodą.</string>
+    <string name="UPQ6A4">Szczypię w stopę i patrzę czy reaguje.</string>
+    <string name="UPQ6E">Pozycja boczna ustalona umożliwia bezpieczne odzyskanie przytomności osobie nieprzytomnej, posiadającej oddech. Zapewnia drożność dróg oddechowych. Niweluje ryzyko zadławienia się osoby poszkodowanej treścią ewentualnych wymiocin.</string>
+
+    <string name="UPQ7">Jeżeli osoba nieprzytomna przestanie oddychać</string>
+    <string name="UPQ7A1">Przechodzisz do RKO.</string>
+    <string name="UPQ7A2">Stwierdzasz zgon.</string>
+    <string name="UPQ7A3">Dzwonisz na policję.</string>
+    <string name="UPQ7A4">Układasz ją w pozycji bezpiecznej.</string>
+    <string name="UPQ7E">Kto człowiekowi znajdującemu się w położeniu grożącym bezpośrednim niebezpieczeństwem utraty życia albo ciężkiego uszczerbku na zdrowiu nie udziela pomocy, mogąc jej udzielić bez narażenia siebie lub innej osoby na niebezpieczeństwo utraty życia albo ciężkiego uszczerbku na zdrowiu, podlega karze pozbawienia wolności do lat 3.</string>
+
+    <string name="UPQ8">Oddech u poszkodowanego będziesz sprawdzał:</string>
+    <string name="UPQ8A1">Słuchając, wyczuwając na policzku i obserwując klatkę piersiową.</string>
+    <string name="UPQ8A2">Przez 25 s.</string>
+    <string name="UPQ8A3">Tylko jeśli jest przytomny.</string>
+    <string name="UPQ8A4">Dopiero po ułożeniu poszkodowanego w pozycji bezpiecznej.</string>
+    <string name="UPQ8E">U poszkodowanego sprawdzamy oddech przez 10 s słuchając, wyczuwając na policzku i obserwując klatkę piersiową. Spodziewamy się usłyszeć 2 do 3 oddechy (12 do 18 oddechów na minutę) </string>
+    <!-- Zawał -->
+
+    <string name="ZAWQ1"> W autobusie siedzi mężczyzna, skarżący się na ból piekący w kl. piersiowej, jest blady i spocony, oddycha szybko, Twoje działanie będzie polegało</string>
+    <string name="ZAWQ1A1">prawdziwe są odpowiedzi B,C.</string>
+    <string name="ZAWQ1A2">B. nie pozwolisz mu wstać, rozepniesz koszulę, zapytasz czy leczy się na serce, wezwiesz pomoc.</string>
+    <string name="ZAWQ1A3">C. podasz mu preparat aspiryny jeśli go posiada i zażywa stale.</string>
+    <string name="ZAWQ1A4">A. natychmiast wyprowadzisz go z autobusu i zaprowadzisz na postój taksówek by pojechał do szpitala.</string>
+    <string name="ZAWQ1E">Objawy zawału serca, to: \n nagły, klujący ból w okolicy mostka; \n wrażenie ciasnoty w klatce piersiowej; \n  często promieniowanie bólu przez lewe ramie aż do małego palca. \n niepokój, strach przed śmiercią; \n chłodna, blada skóra, zimny pot; \n czasem nudności i wymioty; \n często nieregularny puls.</string>
+
+    <string name="ZAWQ2">U osoby, która uskarżała się na ból w kl. piersiowej doszło w Twojej obecności do utraty przytomności i osunięcia na podłogę.</string>
+    <string name="ZAWQ2A1">udrażniasz drogi oddechowe i sprawdzasz obecność oddechu, podejmujesz masaż serca jeśli jest brak oddechu</string>
+    <string name="ZAWQ2A2">układasz osobę na wznak z nogami uniesionymi około 30cm do góry i wzywasz pomoc.</string>
+    <string name="ZAWQ2A3">układasz osobę w pozycji bocznej ustalonej z utrzymaniem drożności dróg oddechowych i wzywasz pomoc.</string>
+    <string name="ZAWQ2A4">sprawdzasz czy w kieszeni poszkodowany nie ma leków na serce by je podać.</string>
+    <string name="ZAWQ2E">Najważniejsze jest szybkie rozpoczęcie RKO  i wezwanie wykwalifikowanej pomocy</string>
+
+    <string name="ZAWQ3">Częstym powikłaniem uciskania klatki piersiowej są połamane żebra.</string>
+    <string name="ZAWQ3A1">Jednak wczesne rozpoczęcie RKO jest dużo ważniejsze, dlatego nawet jeżeli boimy się, że połamiemy żebra należy podjąć resuscytację</string>
+    <string name="ZAWQ3A2">Dlatego należy tego za wszelką cenę uniknąć i jeżeli szybko wezwiemy pogotowie możemy nie reanimować.</string>
+    <string name="ZAWQ3A3">Dlatego należy robić to jak najdelikatniej, nie przekraczając głębokości 4,5cm.</string>
+    <string name="ZAWQ3A4">I jeżeli podczas resuscytacji zrobimy to poszkodowanemu to ciąży na nas odpowiedzialność karna</string>
+    <string name="ZAWQ3E">Częstym powikłaniem uciskania klatki piersiowej są połamane żebra. Jednak wczesne rozpoczęcie RKO jest dużo ważniejsze, dlatego nawet jeżeli boimy się, że połamiemy żebra należy podjąć resuscytację</string>
+
+    <string name="ZAWQ4">U osoby, która uskarżała się na ból w kl. piersiowej doszło w Twojej obecności do zatrzymania krążenia:</string>
+    <string name="ZAWQ4A1">Podejrzewasz zawał serca.</string>
+    <string name="ZAWQ4A2">Ze względu na ból w klatce nie będziesz jej uciskał.</string>
+    <string name="ZAWQ4A3">Podasz aspirynę.</string>
+    <string name="ZAWQ4A4">Zadzwonisz po straż pożarną.</string>
+    <string name="ZAWQ4E">Objawy zawału serca, to: \n nagły, klujący ból w okolicy mostka; \n wrażenie ciasnoty w klatce piersiowej; \n  często promieniowanie bólu przez lewe ramie aż do małego palca. \n niepokój, strach przed śmiercią; \n chłodna, blada skóra, zimny pot; \n czasem nudności i wymioty; \n często nieregularny puls.</string>
+
+    <string name="ZAWQ5">W oczekiwaniu na zespół pogotowia ratunkowego wezwany do osoby u której podejrzewamy zawał</string>
+    <string name="ZAWQ5A1">chorego należy ułożyć w pozycji odciążającej serce, tzn. z lekko podwyższonym tułowiem. </string>
+    <string name="ZAWQ5A2">chorego należy ułożyć na plecach z uniesionymi kończynami</string>
+    <string name="ZAWQ5A3">chorego należy ułożyć  Z nogami ok. 45cm powyżej głowy – tak by jak najwięcej krwi spłynęło do serca</string>
+    <string name="ZAWQ5A4">możemy opuścić poszkodowanego, bo pogotowie już jest w drodze</string>
+    <string name="ZAWQ5E">W oczekiwaniu na zespół pogotowia ratunkowego,chorego należy ułożyć w pozycji odciążającej serce, tzn. z lekko podwyższonym tułowiem. Bardzo ważne jest ułatwienie choremu oddychania. Dlatego należy mu rozluźnić krępujące części garderoby (krawat, koszulę, pasek u spodni, itp).  Jeśli pacjent posiada własne leki pomóż mu je zażyć. Leki można podać tylko kiedy pacjent jest przytomny i komunikatywny </string>
+
+    <string name="ZAWQ6">Jeżeli poszkodowany posiada środki z nitrogliceryna do zastosowania w nagłych przypadkach</string>
+    <string name="ZAWQ6A1">Pomagamy mu je zażyć</string>
+    <string name="ZAWQ6A2">Możemy je podać nawet jeżeli jest nieprzytomny</string>
+    <string name="ZAWQ6A3">Zabraniamy mu je przyjąć – o podaniu leków powinien zadecydować lekarz zespołu pogotowia</string>
+    <string name="ZAWQ6A4">Namawiamy go do przyjęcia, ale jeżeli nie ma siły sam tego zrobić, to nie nalegamy</string>
+    <string name="ZAWQ6E">W oczekiwaniu na zespół pogotowia ratunkowego,chorego należy ułożyć w pozycji odciążającej serce, tzn. z lekko podwyższonym tułowiem. Bardzo ważne jest ułatwienie choremu oddychania. Dlatego należy mu rozluźnić krępujące części garderoby (krawat, koszulę, pasek u spodni, itp).  Jeśli pacjent posiada własne leki pomóż mu je zażyć. Leki można podać tylko kiedy pacjent jest przytomny i komunikatywny </string>
+
+    <string name="ZAWQ7">Najważniejsza w przypadku zawału jest:</string>
+    <string name="ZAWQ7A1">szybka fachowa pomoc medyczna. </string>
+    <string name="ZAWQ7A2">odpowiednio wcześnie zastosowana pozycja bezpieczna.</string>
+    <string name="ZAWQ7A3">decyzja by wstrzymać się z wezwaniem pogotowia, dopóki poszkodowany jest przytomny.</string>
+    <string name="ZAWQ7A4">odpowiednio przeprowadzana rozmowa z rodziną poszkodowanego, tak by nie udzieliła im się panika.</string>
+    <string name="ZAWQ7E">Najważniejsze jest szybkie rozpoczęcie RKO  i wezwanie wykwalifikowanej pomocy</string>
+
+    <string name="ZAWQ8">Częstym powikłaniem masażu serca u osoby z zatrzymaniem oddechu i krążenia, jest/są:</string>
+    <string name="ZAWQ8A1">złamanie żeber.</string>
+    <string name="ZAWQ8A2">uszkodzenie naczyń w kl. piersiowej.</string>
+    <string name="ZAWQ8A3">uraz kręgosłupa.</string>
+    <string name="ZAWQ8A4">zaburzenia rytmu serca.</string>
+    <string name="ZAWQ8E">Częstym powikłaniem uciskania klatki piersiowej są połamane żebra. Jednak wczesne rozpoczęcie RKO jest dużo ważniejsze, dlatego nawet jeżeli boimy się, że połamiemy żebra należy podjąć resuscytację</string>
+
 
 </resources>

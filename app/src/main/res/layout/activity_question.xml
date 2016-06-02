@@ -27,84 +27,86 @@
         android:layout_height="wrap_content"
         android:text="0:30"
         android:id="@+id/textView_timer"
-        android:textSize="22sp"
+        android:textSize="26sp"
         android:textColor="@color/strongblue"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="question"
         android:id="@+id/textView_question"
         android:textStyle="italic"
-        android:textSize="22sp"
+        android:textSize="18sp"
+        android:gravity="center"
         android:textColor="@color/strongblue"
         android:layout_below="@+id/button_finish"
-        android:layout_alignLeft="@+id/button_option1"
-        android:layout_alignStart="@+id/button_option1" />
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="option1"
         android:id="@+id/button_option1"
-        android:textSize="16sp"
+        android:textSize="12sp"
         android:background="@color/strongblue"
         android:textColor="@color/lightblue"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:layout_below="@+id/textView_question"
         android:layout_alignLeft="@+id/button_option3"
         android:layout_alignStart="@+id/button_option3" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="option2"
         android:id="@+id/button_option2"
-        android:textSize="16sp"
+        android:textSize="12sp"
         android:background="@color/strongblue"
         android:textColor="@color/lightblue"
         android:layout_below="@+id/button_option1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="25dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="option3"
         android:id="@+id/button_option3"
-        android:textSize="16sp"
+        android:textSize="12sp"
         android:background="@color/strongblue"
         android:textColor="@color/lightblue"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="25dp"
         android:layout_below="@+id/button_option2"
         android:layout_alignLeft="@+id/button_option2"
         android:layout_alignStart="@+id/button_option2" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="option4"
         android:id="@+id/button_option4"
-        android:textSize="16sp"
+        android:textSize="12sp"
         android:background="@color/strongblue"
         android:textColor="@color/lightblue"
         android:layout_below="@+id/button_option3"
         android:layout_alignLeft="@+id/button_option3"
         android:layout_alignStart="@+id/button_option3"
-        android:layout_marginTop="28dp" />
+        android:layout_marginTop="25dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1/12"
+        android:text="1/8"
         android:id="@+id/textView_question_num"
-        android:textSize="22sp"
+        android:textSize="16sp"
         android:textColor="@color/strongblue"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/textView_timer"
-        android:layout_alignEnd="@+id/textView_timer" />
+        android:layout_alignBottom="@+id/textView_timer"
+        android:layout_alignRight="@+id/button_option1"
+        android:layout_alignEnd="@+id/button_option1" />
 
 </RelativeLayout>

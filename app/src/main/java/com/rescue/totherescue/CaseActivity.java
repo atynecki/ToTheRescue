@@ -21,6 +21,9 @@ public class CaseActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private CaseAdapter caseAdapter;
 
+    private static final String quiz_mode = "QUIZ";
+    private  static final String help_mode = "HELP";
+
     private ArrayList<String> caseList;
 
     @Override
