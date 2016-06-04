@@ -13,7 +13,6 @@ import android.widget.TextView;
 
 import com.rescue.totherescue.R;
 
-
 public class ExplanationFragment extends DialogFragment {
 
     private TextView explanationView;
@@ -38,7 +37,7 @@ public class ExplanationFragment extends DialogFragment {
 
         Window window = getDialog().getWindow();
         window.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.lightblue)));
-        getDialog().setTitle("Explanation");
+        getDialog().setTitle(R.string.explanation_text);
 
         explanationView =  (TextView)dialogView.findViewById(R.id.textView_explanation);
         explanationView.setText(exp);

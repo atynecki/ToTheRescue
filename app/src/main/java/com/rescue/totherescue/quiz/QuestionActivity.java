@@ -17,7 +17,6 @@ import com.rescue.totherescue.quiz.model.Quiz;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
 public class QuestionActivity extends AppCompatActivity implements DialogInterface.OnDismissListener {
 

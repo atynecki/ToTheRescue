@@ -64,7 +64,7 @@ public class QuizStartActivity extends AppCompatActivity {
             case "Zadławienie":
                 questions = setZadlawienia();
                 break;
-            case "Tonięcię":
+            case "Tonięcie":
                 questions = setToniecie();
                 break;
             case "Porażenie prądem":

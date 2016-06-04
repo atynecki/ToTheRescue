@@ -13,7 +13,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Finish"
+        android:text="@string/stop_text"
         android:id="@+id/button_finish"
         android:textSize="20dp"
         android:background="@color/strongblue"
@@ -25,7 +25,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0:45"
+        android:text="@string/default_time"
         android:id="@+id/textView_timer"
         android:textSize="26sp"
         android:textColor="@color/strongblue"
@@ -36,7 +36,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="question"
+        android:text="@string/question_text"
         android:id="@+id/textView_question"
         android:textStyle="bold|italic"
         android:textSize="18sp"
@@ -50,7 +50,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="option1"
+        android:text="@string/option1_text"
         android:id="@+id/button_option1"
         android:textSize="12sp"
         android:background="@color/strongblue"
@@ -63,7 +63,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="option2"
+        android:text="@string/option2_text"
         android:id="@+id/button_option2"
         android:textSize="12sp"
         android:background="@color/strongblue"
@@ -75,7 +75,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="option3"
+        android:text="@string/option3_text"
         android:id="@+id/button_option3"
         android:textSize="12sp"
         android:background="@color/strongblue"
@@ -88,7 +88,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="option4"
+        android:text="@string/option4_text"
         android:id="@+id/button_option4"
         android:textSize="12sp"
         android:background="@color/strongblue"
@@ -101,7 +101,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1/8"
+        android:text="@string/questions_counter_default"
         android:id="@+id/textView_question_num"
         android:textSize="16sp"
         android:textColor="@color/strongblue"

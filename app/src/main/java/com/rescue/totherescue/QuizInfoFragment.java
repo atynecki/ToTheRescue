@@ -24,7 +24,7 @@ public class QuizInfoFragment extends DialogFragment {
 
         Window window = getDialog().getWindow();
         window.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.lightblue)));
-        getDialog().setTitle("Quiz info");
+        getDialog().setTitle(R.string.quiz_info);
 
         return dialogView;
     }

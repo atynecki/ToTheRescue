@@ -9,15 +9,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
-
-import com.rescue.totherescue.quiz.ExplanationFragment;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 
 public class CaseActivity extends AppCompatActivity {
 
@@ -39,7 +32,10 @@ public class CaseActivity extends AppCompatActivity {
         mode= intent.getStringExtra(getString(R.string.mode));
 
         TextView mode_text =  (TextView) findViewById(R.id.textView_mode);
-        mode_text.setText(mode);
+        if(mode.equals(help_mode))
+            mode_text.setText(R.string.help_name);
+        else if(mode.equals(quiz_mode))
+            mode_text.setText(R.string.quiz_name);
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
@@ -84,7 +80,13 @@ public class CaseActivity extends AppCompatActivity {
     void showDialogFragment()
     {
         FragmentManager fm = getSupportFragmentManager();
-        DialogFragment newFragment = QuizInfoFragment.getInstance();
-        newFragment.show(fm, null);
+        if(mode.equals(quiz_mode)) {
+            DialogFragment newFragment = QuizInfoFragment.getInstance();
+            newFragment.show(fm, null);
+        }
+        else if(mode.equals(help_mode))
+        {
+
+        }
     }
 }

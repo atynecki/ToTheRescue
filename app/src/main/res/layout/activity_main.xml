@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="v.1.0"
+        android:text="@string/app_version"
         android:id="@+id/textView_app_version"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Created by LemurTeam"
+        android:text="@string/created_by"
         android:id="@+id/textView_app_author"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -55,7 +55,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pomoc"
+        android:text="@string/help_name"
         android:id="@+id/button_help"
         android:textSize="30dp"
         android:background="@color/strongblue"
@@ -69,7 +69,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quiz"
+        android:text="@string/quiz_name"
         android:id="@+id/button_quiz"
         android:textSize="30dp"
         android:background="@color/strongblue"

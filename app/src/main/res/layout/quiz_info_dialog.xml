@@ -13,7 +13,7 @@
         android:layout_width="70dp"
         android:layout_height="100dp"
         android:src="@drawable/quiz_icon"
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_quiz_icon"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:foregroundGravity="center"
@@ -27,8 +27,8 @@
         android:gravity="center"
         android:id="@+id/textView_quiz_info1"
         android:layout_marginTop="20dp"
-        android:layout_toRightOf="@+id/imageView"
-        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView_quiz_icon"
+        android:layout_toEndOf="@+id/imageView_quiz_icon"
         android:textStyle="bold|italic" />
 
     <TextView
@@ -38,7 +38,7 @@
         android:text="@string/quiz_brief2"
         android:gravity="center"
         android:id="@+id/textView_quiz_info2"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/imageView_quiz_icon"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

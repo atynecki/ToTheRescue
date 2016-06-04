@@ -11,7 +11,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mode"
+            android:text="@string/mode_text"
             android:id="@+id/textView_mode"
             android:textStyle="bold|italic"
             android:textSize="30sp"

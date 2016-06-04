@@ -16,8 +16,6 @@ public class ResultActivity extends AppCompatActivity {
     private TextView correct_answer;
     private TextView wrong_answer;
 
-    private int drawableImageID;
-
     private int low_ths = 25;
     private int high_ths = 75;
 
