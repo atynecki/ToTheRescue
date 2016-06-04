@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.rescue.totherescue.AppInfoActivity;
+import com.rescue.totherescue.MainActivity;
 import com.rescue.totherescue.R;
 
 public class ResultActivity extends AppCompatActivity {
@@ -49,9 +51,12 @@ public class ResultActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_menu_exit) {
-
-            return true;
+        if (id == R.id.action_menu_exit)
+        {
+            Intent intent= new Intent(ResultActivity.this, MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);
