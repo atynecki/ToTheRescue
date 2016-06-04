@@ -45,13 +45,14 @@ public class QuizStartActivity extends AppCompatActivity {
                 Intent intent = new Intent(QuizStartActivity.this, QuestionActivity.class);
                 intent.putExtra("quiz", quiz);
                 startActivity(intent);
+                finish();
             }
         });
     }
 
     private String getQuizDescription(int question_num)
     {
-        return "Ten Quiz zawiera "+String.valueOf(question_num)+" pytań. Na udzielenie poprawnej odpowiedzi masz 30 sekund. W przypadku pomyłki wyświetlony zostanie tekst uzupełeniający Twoją wiedzę.";
+        return "Ten Quiz zawiera "+String.valueOf(question_num)+" pytań. Na udzielenie poprawnej odpowiedzi masz 45 sekund. W przypadku pomyłki wyświetlony zostanie tekst uzupełeniający Twoją wiedzę.";
     }
 
     private void createQuizClass(String quiz_case)

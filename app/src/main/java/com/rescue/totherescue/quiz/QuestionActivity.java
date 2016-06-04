@@ -1,5 +1,6 @@
 package com.rescue.totherescue.quiz;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.CountDownTimer;
 import android.support.v4.app.DialogFragment;
@@ -18,7 +19,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class QuestionActivity extends AppCompatActivity {
+public class QuestionActivity extends AppCompatActivity implements DialogInterface.OnDismissListener {
 
     private Quiz quiz;
     private Button finish_button;
@@ -34,7 +35,7 @@ public class QuestionActivity extends AppCompatActivity {
     private Question current_question;
     private String current_answer;
 
-    private final TimeCounter timer = new TimeCounter(30000,100);
+    private final TimeCounter timer = new TimeCounter(45000,100);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,6 +102,7 @@ public class QuestionActivity extends AppCompatActivity {
         intent.putExtra("correct", quiz.getCorrect_answer());
         intent.putExtra("wrong", quiz.getWrong_answer());
         startActivity(intent);
+        finish();
     }
 
     private void updateQuestionCounter ()
@@ -150,9 +152,15 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else
         {
+            timer.cancel();
             showDialogFragment(current_question.getExplanation());
-            setNextQuestion();
         }
+    }
+
+    @Override
+    public void onDismiss(DialogInterface dialog)
+    {
+        setNextQuestion();
     }
 
     public class TimeCounter extends CountDownTimer {

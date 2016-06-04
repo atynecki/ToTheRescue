@@ -419,11 +419,11 @@
     <string name="UPQ8E">U poszkodowanego sprawdzamy oddech przez 10 s słuchając, wyczuwając na policzku i obserwując klatkę piersiową. Spodziewamy się usłyszeć 2 do 3 oddechy (12 do 18 oddechów na minutę) </string>
     <!-- Zawał -->
 
-    <string name="ZAWQ1"> W autobusie siedzi mężczyzna, skarżący się na ból piekący w kl. piersiowej, jest blady i spocony, oddycha szybko, Twoje działanie będzie polegało</string>
-    <string name="ZAWQ1A1">prawdziwe są odpowiedzi B,C.</string>
-    <string name="ZAWQ1A2">B. nie pozwolisz mu wstać, rozepniesz koszulę, zapytasz czy leczy się na serce, wezwiesz pomoc.</string>
-    <string name="ZAWQ1A3">C. podasz mu preparat aspiryny jeśli go posiada i zażywa stale.</string>
-    <string name="ZAWQ1A4">A. natychmiast wyprowadzisz go z autobusu i zaprowadzisz na postój taksówek by pojechał do szpitala.</string>
+    <string name="ZAWQ1"> W autobusie siedzi mężczyzna, skarżący się na ból piekący w kl. piersiowej, jest blady i spocony, oddycha szybko, co zrobisz?</string>
+    <string name="ZAWQ1A1">Nie pozwolisz mu wstać, rozepniesz koszulę, zapytasz czy leczy się na serce, wezwiesz pomocnie pozwolisz mu wstać, rozepniesz koszulę, zapytasz czy leczy się na serce, wezwiesz pomoc</string>
+    <string name="ZAWQ1A2">Układasz go w pozycji bocznej ustalonej z utrzymaniem drożności dróg oddechowych i wzywasz pomoc.</string>
+    <string name="ZAWQ1A3">Pomożesz mu wstać i zalecisz mu przejść się kilka razy w tę i z powrotem, żeby uspokoił nerwy.</string>
+    <string name="ZAWQ1A4">Natychmiast wyprowadzisz go z autobusu i zaprowadzisz na postój taksówek by pojechał do szpitala.</string>
     <string name="ZAWQ1E">Objawy zawału serca, to: \n nagły, klujący ból w okolicy mostka; \n wrażenie ciasnoty w klatce piersiowej; \n  często promieniowanie bólu przez lewe ramie aż do małego palca. \n niepokój, strach przed śmiercią; \n chłodna, blada skóra, zimny pot; \n czasem nudności i wymioty; \n często nieregularny puls.</string>
 
     <string name="ZAWQ2">U osoby, która uskarżała się na ból w kl. piersiowej doszło w Twojej obecności do utraty przytomności i osunięcia na podłogę.</string>
@@ -474,6 +474,11 @@
     <string name="ZAWQ8A3">uraz kręgosłupa.</string>
     <string name="ZAWQ8A4">zaburzenia rytmu serca.</string>
     <string name="ZAWQ8E">Częstym powikłaniem uciskania klatki piersiowej są połamane żebra. Jednak wczesne rozpoczęcie RKO jest dużo ważniejsze, dlatego nawet jeżeli boimy się, że połamiemy żebra należy podjąć resuscytację</string>
+    <string name="title_activity_app_info">AppInfoActivity</string>
+
+    <string name="app_brief">Aplikacja ToTheRescue stworzona została dla wszystkich którzy chcą sprawdzić lub pogłębić swoją wiedze na temat zasad udzielania pierwszej pomocy w różnych przypadkach.</string>
+    <string name="quiz_brief1">Tryb QUIZ pozwala w łatwy sposób sprawdzić swoją wiedze na temat udzielania pierwszej pomocy.</string>
+    <string name="quiz_brief2">Przed rozpoczęciem gry należy wybrać z listy interesujący nas przypadek. Po zapoznaniu się z instrukcją rozpoczynamy test. Jego wynik pojawi się zaraz po ostatnim pytaniu.\n <b>Sprawdź siebie właśnie teraz!</b>.</string>
 
 
 </resources>

@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_menu_info) {
-            //Intent intent = new Intent(this, InfoActivity.class);
-            //startActivity(intent);
+            Intent intent = new Intent(this, AppInfoActivity.class);
+            startActivity(intent);
             return true;
         }
 

@@ -42,8 +42,8 @@ public class ResultActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        //getMenuInflater().inflate(R.menu.menu_welcome, menu);
+        //Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_result, menu);
         return true;
     }
 
@@ -51,7 +51,8 @@ public class ResultActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_menu_info) {
+        if (id == R.id.action_menu_exit) {
+
             return true;
         }
 

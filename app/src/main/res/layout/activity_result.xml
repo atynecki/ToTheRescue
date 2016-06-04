@@ -48,10 +48,9 @@
         android:textStyle="italic|bold"
         android:textSize="28sp"
         android:textColor="@color/red"
-        android:layout_marginBottom="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/textView_correct_answer"
-        android:layout_alignStart="@+id/textView_correct_answer" />
+        android:layout_below="@+id/textView_ca_result"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -61,7 +60,8 @@
         android:textStyle="italic|bold"
         android:textSize="32sp"
         android:textColor="@color/red"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/textView_wrong_answer"
+        android:layout_centerHorizontal="true"
+         />
 
 </RelativeLayout>
