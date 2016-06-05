@@ -86,7 +86,8 @@ public class CaseActivity extends AppCompatActivity {
         }
         else if(mode.equals(help_mode))
         {
-
+            DialogFragment newFragment = HelpInfoFragment.getInstance();
+            newFragment.show(fm, null);
         }
     }
 }

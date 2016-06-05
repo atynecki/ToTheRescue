@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="36dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.rescue.totherescue.MainActivity"
+    android:background="@color/lightblue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/porazenie"
+        android:id="@+id/textView_step_brief"
+        android:textStyle="bold|italic"
+        android:textSize="36sp"
+        android:textColor="@color/strongblue"
+        android:layout_above="@+id/imageView_photo"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/eletrcocution"
+        android:id="@+id/imageView_photo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_text"
+        android:id="@+id/button_start"
+        android:textSize="30dp"
+        android:background="@color/strongblue"
+        android:textColor="@color/lightblue"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+</RelativeLayout>

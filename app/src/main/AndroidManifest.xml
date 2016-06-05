@@ -26,6 +26,30 @@
             android:name=".AppInfoActivity"
             android:label="@string/title_activity_app_info" >
         </activity>
+        <activity
+            android:name=".help.Views.HelpSimpleQuestionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".help.Views.HelpSimpleStepActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".help.Views.HelpStepWithInfoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".help.Electrocution.ElectrocutionMainActivity"
+            android:label="@string/title_activity_electrocution_main" >
+        </activity>
+        <activity
+            android:name=".help.Views.HelpStepWithPhotoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".help.Unconsciousness.UnconsciousnessMainActivity"
+            android:label="@string/title_activity_unconsciousness_main" >
+        </activity>
     </application>
 
 </manifest>

@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.rescue.totherescue.CaseActivity;
+import com.rescue.totherescue.help.Electrocution.ElectrocutionMainActivity;
+import com.rescue.totherescue.help.Unconsciousness.UnconsciousnessMainActivity;
 import com.rescue.totherescue.quiz.QuestionActivity;
 import com.rescue.totherescue.quiz.QuizStartActivity;
 
@@ -68,12 +70,26 @@ public class CaseAdapter extends RecyclerView.Adapter<CaseAdapter.CaseViewHolder
                     }
                     else if (mode.equals(help_mode))
                     {
-                        //Intent intent = new Intent(context, HelpActivity.class);
-                        //intent.putExtra("case", oneCase);
-                        //context.startActivity(intent);
+                        runHelpCase(oneCase);
                     }
                 }
             });
+        }
+
+        private void runHelpCase(String help_case)
+        {
+            switch(help_case)
+            {
+                case "Porażenie prądem":
+                    Intent intent1 = new Intent(context, ElectrocutionMainActivity.class);
+                    context.startActivity(intent1);
+                    break;
+                case "Utrata przytomności":
+                    Intent intent2 = new Intent(context, UnconsciousnessMainActivity.class);
+                    context.startActivity(intent2);
+                default:
+                    break;
+            }
         }
 
 

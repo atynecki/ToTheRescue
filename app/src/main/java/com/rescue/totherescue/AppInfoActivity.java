@@ -18,15 +18,30 @@ public class AppInfoActivity extends AppCompatActivity {
         quiz_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showDialogFragment();
+                showQuizDialogFragment();
+            }
+        });
+
+        Button help_button = (Button) findViewById(R.id.button_help);
+        help_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showHelpDialogFragment();
             }
         });
     }
 
-    void showDialogFragment()
+    void showQuizDialogFragment()
     {
         FragmentManager fm = getSupportFragmentManager();
         DialogFragment newFragment = QuizInfoFragment.getInstance();
+        newFragment.show(fm, null);
+    }
+
+    void showHelpDialogFragment()
+    {
+        FragmentManager fm = getSupportFragmentManager();
+        DialogFragment newFragment = HelpInfoFragment.getInstance();
         newFragment.show(fm, null);
     }
 }

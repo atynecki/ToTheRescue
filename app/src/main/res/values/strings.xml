@@ -470,6 +470,7 @@
     <string name="ZAWQ8A4">Zaburzenia rytmu serca</string>
     <string name="ZAWQ8E">Częstym powikłaniem uciskania klatki piersiowej są połamane żebra.\nJednak wczesne rozpoczęcie RKO jest dużo ważniejsze, dlatego nawet jeżeli boimy się, że połamiemy żebra należy podjąć resuscytację.</string>
 
+    <!-- Aplikacja -->
     <string name="title_activity_app_info">Info</string>
     <string name="app_brief">Aplikacja ToTheRescue stworzona została dla wszystkich którzy chcą sprawdzić lub pogłębić swoją wiedze na temat zasad udzielania pierwszej pomocy w różnych przypadkach.</string>
     <string name="quiz_brief1">Tryb QUIZ pozwala w łatwy sposób sprawdzić swoją wiedze na temat udzielania pierwszej pomocy.</string>
@@ -494,5 +495,53 @@
     <string name="explanation_text">Wyjaśnienie</string>
     <string name="correct_answer_text">Poprawne odpowiedzi:</string>
     <string name="wrong_answer_text">Błędne odpowiedzi:</string>
+
+    <string name="answer1_text">answer1</string>
+    <string name="answer2_text">answer2</string>
+    <string name="next_text">Dalej</string>
+    <string name="step_brief_text">step_brief</string>
+    <string name="step_info_text">step_info</string>
+    <string name="title_activity_electrocution_main">Porażenie prądem</string>
+    <string name="start_text">Start</string>
+    <string name="end_text">Koniec</string>
+    <string name="help_info">Pomoc informacje</string>
+    <string name="help_brief1">Tryb POMOC pozwala na natychmiastowe podjęcie czynności ratownicznych w nagłych przypadkach</string>
+    <string name="help_brief2">W momencie gdy użytkownik jest świadkiem sytuacji w której należy udzielić osobie poszkodowanej pomocy należy wybrać z listy interesująy nas przypadek. Na ekranie ukazywać się będą krótkie komunikaty i instrukcje wspierające proces udzielania pierwszej pomocy. Na podstawie odpowiednich procedur medycznych i wyborów użytkownika aplikacja będzie przedstawiać kolejne instrukcje dostosowane do sytuacji.</string>
+    <string name="title_activity_unconsciousness_main">Utrata przytomności</string>
+
+    <!-- Help -->
+    <!-- Porażenie -->
+    <string name="HP_S1B">Odłącz źródło porażenie</string>
+    <string name="HP_S1I">Wyłącz korki i/lub wyciągnij wtyczkę.\n\nNie dotykaj porażonego dopóki nie odłączysz źródła porażenia!</string>
+    <string name="HP_S2B">Przejdź do oceny jak przy utracie przytomności.</string>
+    <string name="HP_S3B">Załóż opatrunek na oparzone miejsce</string>
+    <string name="HP_S4B">Zostań z poszkodowanym do momentu przybycia Pogotowia Ratunkowego i przejęcia opieki nad poszkodowanym.</string>
+
+    <!-- Utrata przytomności -->
+    <string name="HUP_S1B">Określ czy poszkodowany uległ urazowi</string>
+    <string name="HUP_S1I">Jeśli nie wiadomo co się stało z poszkodowanym, zakładamy, że uległ urazowi.</string>
+    <string name="HUP_S2Q">Czy poszkodowany doznał urazu?</string>
+    <string name="HUP_S2A1">TAK</string>
+    <string name="HUP_S2A2">NIE</string>
+    <string name="HUP_S3B">Zadbaj o własne bezpieczeństwo</string>
+    <string name="HUP_S3I">Rękawiczki ratownicze, kamizelka odblaskowa, itp.</string>
+    <string name="HUP_S4B">Sprawdź czy poszkodowany reaguje</string>
+    <string name="HUP_S4I">Podejdź do osoby od przodu, tak żeby Cię widziała i nie odwracała się, nie wykonywała gwałtownych ruchów.</string>
+    <string name="HUP_S5BNU">Sprawdź przytomność</string>
+    <string name="HUP_S5INU">Delikatnie potrząśnij za ramiona.\nZapytaj: \"Halo, słyszysz mnie?\"</string>
+    <string name="HUP_S5BU">Sprawdź przytomność, unieruchom odcinek szyjny kręgosłupa</string>
+    <string name="HUP_S6Q">Poszkodowany odpowiada/reaguje?</string>
+    <string name="HUP_S6A1">TAK</string>
+    <string name="HUP_S6A2">NIE</string>
+    <string name="HUP_S7BC">Dowiedz się co się stało i przejdź do odpowiedniej procedury</string>
+    <string name="HUP_S7BUC">Udrożnij drogi oddechowe</string>
+    <string name="HUP_S8B">Sprawdź oddech</string>
+    <string name="HUP_S8I">Sprawdzaj oddech przez 10s.\nPowinieneś w tym czasie wyczuć 2-3 oddechy.</string>
+    <string name="HUP_S9B">Wezwij pomoc:\n999 lub 112</string>
+    <string name="HUP_S9I">Podaj wszystkie niezbędne informacje:\n- czy oddycha,\n- czy jest przytomny,\n- co i gdzie się stało,\n- odpowiadaj na wszystkie pytania dyspozytora.</string>
+    <string name="HUP_S10Q">Poszkodowany oddycha?</string>
+    <string name="HUP_S11BU">Zadbaj o drożność górnych dróg oddechowych i kontroluj stan poszkodowanego do przyjazdu pogotowia</string>
+    <string name="HUP_S11BNU">Ułóż w pozycji bezpiecznej i kontroluj stan poszkodowanego do przyjazdu pogotowia</string>
+    <string name="HUP_S11BUN">Przejdź do RKO</string>
 
 </resources>
